@@ -65,7 +65,7 @@ Heavy compound resistance training imposes high central nervous system (CNS) fat
 Load detailed coaching guidance based on topic:
 
 | Topic | Reference | Load When |
-|-------|-----------|-----------|
+| ------- | ----------- | ----------- |
 | Intensity & RPE Metrics | `references/intensity-and-rpe-metrics.md` | RIR 0-4 scale, RPE lifting table, 1RM formulas, VBT, Volume Load |
 | Workout Analysis | `references/workout-analysis.md` | Intraset velocity decay, RIR accuracy check, progressive overload tracking |
 | Periodization & Planning | `references/periodization-and-planning.md` | Hypertrophy vs Strength mesocycles, concurrent endurance integration |
@@ -77,6 +77,7 @@ Load detailed coaching guidance based on topic:
 ### Example 1: Set Analysis & RIR Autoregulation
 
 **Input Data**:
+
 - Prescribed: Barbell Back Squat 4 sets x 5 reps @ 2 RIR (Target ~140kg)
 - Actual:
   - Set 1: 140kg x 5 @ 3 RIR
@@ -85,6 +86,7 @@ Load detailed coaching guidance based on topic:
   - Set 4: 142.5kg x 4 @ 0 RIR (Failed 5th rep)
 
 **Coach Response**:
+
 - **Diagnostic**: Fatigue accumulated rapidly by Set 4 due to over-adjusting weight in Set 2 and pushing Set 3 to 1 RIR instead of holding 2 RIR reserve.
 - **Feedback**: Remember that RIR 2 means leaving 2 clean reps in the tank. Pushing to 0 RIR prematurely on compound squats causes exponential CNS fatigue.
 - **Prescription**: Next week, hold 140kg across all 4 sets with strict 3-minute rest intervals.
@@ -94,6 +96,7 @@ Load detailed coaching guidance based on topic:
 **Input Target**: Powerlifting Meet in 10 days. Tested 1RM Deadlift in gym: 220kg.
 
 **Coach Response**:
+
 - **1st Attempt (Opener)**: 200kg ($91\% \text{ 1RM}$). Easy confidence builder, ensures a valid score.
 - **2nd Attempt**: 212.5kg ($96.5\% \text{ 1RM}$). Matches current peak strength under meet conditions.
 - **3rd Attempt**: 222.5kg–225kg ($101-102\% \text{ 1RM}$). PR attempt dependent on 2nd attempt speed and bar velocity.
@@ -103,6 +106,7 @@ Load detailed coaching guidance based on topic:
 **Input Status**: Lifter entering Hypertrophy Accumulation block. Goal: Upper body hypertrophy with 2 RIR target.
 
 **Coach Response**:
+
 - **Exercise 1**: Incline Dumbbell Bench Press 4 x 8-10 reps @ 2 RIR (3m rest).
 - **Exercise 2**: Chest-Supported T-Bar Row 4 x 10-12 reps @ 2 RIR (2m rest).
 - **Exercise 3**: Cable Lateral Raise 3 x 12-15 reps @ 1 RIR (90s rest).
@@ -111,12 +115,14 @@ Load detailed coaching guidance based on topic:
 ## Constraints
 
 ### MUST DO
+
 - Autoregulate load using Reps in Reserve (RIR 0–4) or lifting RPE (6–10) scales.
 - Cap weekly direct set volume between 10–20 hard sets per muscle group per week to avoid non-functional overreaching.
 - Mandate 3–5 minutes rest between heavy compound strength sets ($\ge 85\% \text{ 1RM}$) to ensure ATP-CP resynthesis.
 - Schedule deload weeks (Volume $-50\%$, Load $-10\%$) every 4–6 weeks of progressive training.
 
 ### MUST NOT DO
+
 - Prescribe true 0 RIR (failure) sets on heavy free-weight compound exercises (Squat, Deadlift, Overhead Press).
 - Increase total weekly volume load by more than 10-15% week-over-week.
 - Ignore joint pain or tendon inflammation (e.g. patellar tendonitis, elbow epicondylitis).
@@ -125,6 +131,7 @@ Load detailed coaching guidance based on topic:
 ## Output Templates
 
 When delivering weight training coaching feedback or plans, include:
+
 1. **Summary Metrics**: Total Volume Load ($\text{Sets} \times \text{Reps} \times \text{Weight}$), Average RIR, estimated 1RM, and intensity percentage.
 2. **Set Execution Breakdown**: Rep accuracy per set, target RIR compliance, and rest interval adequacy.
 3. **Neuromuscular & Joint Assessment**: CNS fatigue evaluation, RIR trend, and joint stress diagnosis.

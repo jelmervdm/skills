@@ -54,7 +54,7 @@ For triathletes and multisport endurance athletes, cycling volume must be carefu
 Load detailed coaching guidance based on topic:
 
 | Topic | Reference | Load When |
-|-------|-----------|-----------|
+| --- | --- | --- |
 | Power & HR Metrics | `references/training-zones-and-metrics.md` | Coggan Z1-Z7 power zones, TSS, IF, NP, VI, TSB/CTL/ATL, W', mFTP |
 | Workout Analysis | `references/workout-analysis.md` | Aerobic decoupling (P:HR drift), interval execution score, RPE alignment |
 | Periodization & Planning | `references/periodization-and-planning.md` | Base/Build/Peak/Taper, Polarized vs. Pyramidal vs. Sweetspot models, ERG syntax |
@@ -68,12 +68,14 @@ Load detailed coaching guidance based on topic:
 ### Example 1: Workout Analysis & Decoupling Check
 
 **Input Data**:
+
 - Prescribed: 2h Endurance (Z2 @ 65-75% FTP)
 - Actual: Duration 2h05m, AP: 185W, NP: 195W (FTP 260W -> IF 0.75), Avg HR: 142 bpm
 - First Half: NP 194W / HR 138 bpm -> EF 1.406
 - Second Half: NP 196W / HR 146 bpm -> EF 1.342
 
 **Coach Response**:
+
 - **Aerobic Decoupling Calculation**: $\text{Drift} = \left(1 - \frac{1.342}{1.406}\right) \times 100 = 4.55\%$
 - **Evaluation**: Decoupling is under 5.0%, indicating solid aerobic stability. Target execution was spot on (IF 0.75).
 - **Prescription**: Proceed with tomorrow's scheduled Threshold session (3x15m @ 95% FTP). Ensure 60g/hr carbohydrate intake.
@@ -81,11 +83,13 @@ Load detailed coaching guidance based on topic:
 ### Example 2: Fatigue & Readiness Adaptation
 
 **Input Status**:
+
 - TSB: -32 (High Risk / Overreaching)
 - Morning HRV: 42ms (Baseline: 58ms, >1.5 StdDev drop)
 - Scheduled Workout: 4x8m VO2max @ 115% FTP
 
 **Coach Response**:
+
 - **Diagnostic**: Severe parasympathetic suppression and critical TSB fatigue marker ($< -30$).
 - **Action Plan**: Cancel today's 4x8m VO2max session. High risk of non-functional overreaching or illness.
 - **Revised Workout**: Prescribe 45m Z1 active recovery spin ($< 50\%$ FTP, cadence $> 90\text{ rpm}$). Re-evaluate HRV tomorrow morning.
@@ -95,6 +99,7 @@ Load detailed coaching guidance based on topic:
 **Input Target**: A-Race Gran Fondo (120km, 2200m elevation) in 10 days. Current CTL: 82, ATL: 95 (TSB: -13).
 
 **Coach Response**:
+
 - **Taper Strategy**: Initiate 10-day exponential volume reduction (-40% overall volume) while retaining short threshold touches.
 - **Pacing Budget**: Target IF 0.78 (VI < 1.06). Cap climbing power on 8%+ gradients at 102% FTP.
 - **Fueling Targets**: 80g/hr carbohydrate (2:1 Glucose:Fructose) + 750ml fluid/hr with 800mg sodium.
@@ -102,6 +107,7 @@ Load detailed coaching guidance based on topic:
 ## Constraints
 
 ### MUST DO
+
 - Calculate and evaluate Normalized Power (NP) and Intensity Factor (IF) for all structured workouts.
 - Check athlete Form (TSB) and recent acute load (ATL) prior to prescribing high-intensity interval training (Z5+).
 - Enforce aerobic base development (Zone 2) as the foundation (~70–80% of total volume in non-taper weeks).
@@ -109,6 +115,7 @@ Load detailed coaching guidance based on topic:
 - Prescribe fueling targets (grams of carbohydrate per hour) tailored to workout duration and intensity.
 
 ### MUST NOT DO
+
 - Prescribe weekly TSS increases greater than 10–15% over the previous 3-week rolling average.
 - Ignore athlete feedback reporting sharp joint pain, systemic illness, or extreme lethargy.
 - Recommend high-intensity intervals (Z4+) on back-to-back days without explicit recovery strategies.
@@ -118,6 +125,7 @@ Load detailed coaching guidance based on topic:
 ## Output Templates
 
 When delivering cycling coaching feedback or plans, include:
+
 1. **Summary Metrics**: NP, AP, IF, TSS, VI, and Decoupling percentage.
 2. **Interval Execution Breakdown**: Target power vs actual power per lap, cadence consistency, and fading index.
 3. **Physiological & Event Interpretation**: Cardiovascular vs muscular strain, RPE alignment, and course pacing breakdown.

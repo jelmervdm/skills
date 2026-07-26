@@ -30,3 +30,7 @@ jobs:
           python3 scripts/validate-skills.py --skills-dir coach --check yaml
           python3 scripts/validate-skills.py --skills-dir coach --check references
           python3 scripts/validate-skills.py --skills-dir coach --check crossrefs
+
+      - name: Lint Markdown Files
+        run: |
+          npx markdownlint-cli *.md coach/*/*.md coach/*/references/*.md

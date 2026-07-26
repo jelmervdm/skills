@@ -32,6 +32,7 @@ The `cycling-coach` skill acts as an intelligent decision layer on top of `inter
 ## 2. Common Coaching Workflows & Tool Queries
 
 ### Workflow A: Morning Readiness Assessment
+
 Before evaluating or modifying today's workout, query wellness and fitness status:
 
 1. **Fetch Athlete Profile & Benchmarks**: Get current FTP, LTHR, weight, and max HR.
@@ -39,6 +40,7 @@ Before evaluating or modifying today's workout, query wellness and fitness statu
 3. **Fetch Daily Wellness**: Inspect sleep score, resting heart rate, HRV (rMSSD), and fatigue rating.
 
 ### Workflow B: Post-Workout Analysis
+
 When analyzing a completed ride:
 
 1. **Fetch Activity Details**: Retrieve normalized power (NP), average power (AP), total TSS, Intensity Factor (IF), average HR, and max HR.
@@ -46,6 +48,7 @@ When analyzing a completed ride:
 3. **Generate Feedback**: Synthesize execution score and provide actionable coaching commentary to the athlete.
 
 ### Workflow C: Training Plan & Workout Prescriptions
+
 When building or adjusting an upcoming week:
 
 1. **Fetch Calendar Schedule**: Inspect scheduled workouts for the upcoming 7–14 days.

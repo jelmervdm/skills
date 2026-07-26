@@ -7,6 +7,7 @@ Step-by-step protocol for high-carbohydrate absorption ($80-120\text{g/hr}$), so
 ## 1. Dual-Source Carbohydrate Ratio
 
 SGLT1 transporters absorb glucose at $\max 60\text{g/hr}$. GLUT5 transporters absorb fructose at $\max 30-40\text{g/hr}$.
+
 - **Optimal Blend**: 2:1 Glucose-to-Fructose (or 1:0.8 Maltodextrin-to-Fructose) enables up to $90 - 120\text{g}$ carbohydrate absorption per hour.
 
 ---

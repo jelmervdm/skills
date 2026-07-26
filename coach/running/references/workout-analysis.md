@@ -7,7 +7,7 @@ Structured protocol for analyzing completed running workouts, evaluating pace de
 ## 1. Biomechanical Metrics & Benchmarks
 
 | Metric | Target Range | Physiological Significance |
-|--------|--------------|----------------------------|
+| -------- | -------------- | ---------------------------- |
 | **Cadence (Stride Rate)** | $170 - 185\text{ spm}$ | Lower cadence ($< 160\text{ spm}$) increases stride length, overstriding, and joint peak shock load. |
 | **Ground Contact Time (GCT)** | $200 - 240\text{ ms}$ | Shorter GCT indicates better leg stiffness and elastic energy return. |
 | **GCT Balance** | $50.0\% / 50.0\%$ | Asymmetry ($> 51.5\% / 48.5\%$) indicates muscle imbalance or compensation for fatigue/injury. |

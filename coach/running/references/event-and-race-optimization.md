@@ -7,10 +7,12 @@ Detailed tactics for negative splits, terrain pacing, marathon fueling, and pre-
 ## 1. Pacing Strategies by Race Distance
 
 ### 5k / 10k Races
+
 - **Pacing**: Even pacing or subtle negative split ($1 - 2\%$ faster 2nd half).
 - **Rule**: Never run the first 1km more than 3 seconds faster than target average pace.
 
 ### Half Marathon & Marathon
+
 - **Strategy**: Strictly conservative start.
   - **Km 0 - 5**: $2 - 4\text{ seconds/km}$ slower than target M-Pace (Warmup & crowd navigation).
   - **Km 5 - 30**: Lock into exact target M-Pace.

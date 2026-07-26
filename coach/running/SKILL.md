@@ -61,7 +61,7 @@ Running places high eccentric and repetitive impact loads on lower extremity joi
 Load detailed coaching guidance based on topic:
 
 | Topic | Reference | Load When |
-|-------|-----------|-----------|
+| ------- | ----------- | ----------- |
 | Pace & HR Zones | `references/pace-and-hr-zones.md` | Jack Daniels VDOT, E/M/T/I/R pace zones, GAP, running power, rTSS |
 | Workout Analysis | `references/workout-analysis.md` | Pace decoupling (Pace:HR drift), cadence (spm), GCT, vertical oscillation |
 | Periodization & Planning | `references/periodization-and-planning.md` | 5k/10k/Half/Marathon blocks, weekly mileage ramp rates ($\le 10\%$) |
@@ -73,12 +73,14 @@ Load detailed coaching guidance based on topic:
 ### Example 1: Workout Analysis & Decoupling Check
 
 **Input Data**:
+
 - Prescribed: 14km Long Easy Run (E-Pace: 5:15/km, HR < 145 bpm)
 - Actual: 14.2km, Avg Pace: 5:12/km, Avg HR: 148 bpm, Cadence: 174 spm
 - First Half: Pace 5:14/km / HR 142 bpm -> Efficiency 0.00370
 - Second Half: Pace 5:10/km / HR 154 bpm -> Efficiency 0.00344
 
 **Coach Response**:
+
 - **Pace Decoupling Calculation**: $\text{Drift} = 7.0\%$. Elevated drift indicates cardiovascular strain and dehydration toward the end.
 - **Biomechanical Check**: Cadence of 174 spm was excellent.
 - **Prescription**: Take tomorrow as a low-impact Z1 recovery or cross-training day. Increase fluid intake during long runs.
@@ -88,6 +90,7 @@ Load detailed coaching guidance based on topic:
 **Input Target**: Goal Marathon in 14 days. VDOT: 52 (Equivalent Marathon Goal: 3:00:00 / Pace 4:15/km).
 
 **Coach Response**:
+
 - **Pacing Strategy**: Plan a conservative early pace. Km 0–10 @ 4:18/km (Target IF 0.85); Km 10–30 @ 4:15/km; Km 30–42.2 @ 4:10-4:12/km if feeling strong.
 - **Fueling Protocol**: Consume 60–75g carbohydrate per hour (1 gel every 25 minutes + 150ml water at aid stations).
 - **Taper Protocol**: Reduce total weekly mileage by 40% in Week -2, 60% in Week -1, maintaining short 3x1km openers at Threshold pace.
@@ -97,6 +100,7 @@ Load detailed coaching guidance based on topic:
 **Input Status**: VDOT 50 (5k: 19:57, I-Pace: 3:54/km). Athlete requested a high-intensity workout for 5k speed development.
 
 **Coach Response**:
+
 - **Workout Prescription**: 5 x 1000m @ 3:54/km w/ 3:00 active jogging recovery (E-Pace).
 - **Warmup**: 2km E-Pace + 4x50m strides.
 - **Cooldown**: 1.5km E-Pace.
@@ -107,12 +111,14 @@ Load detailed coaching guidance based on topic:
 ## Constraints
 
 ### MUST DO
+
 - Calculate VDOT and use physiological pace zones (E, M, T, I, R) rather than arbitrary speed targets.
 - Enforce the 10% Rule: Never increase total weekly running distance by more than 10% over the prior week.
 - Require cadence monitoring; recommend maintaining 170–180 strides per minute (spm) to minimize ground contact time and joint impact.
 - Prescribe intra-run carbohydrate fueling (60–90g/hr) for runs exceeding 90 minutes.
 
 ### MUST NOT DO
+
 - Prescribe back-to-back high-impact quality days (e.g. Threshold intervals immediately followed by VO2max intervals).
 - Ignore runner reports of sharp localized bone/tendon pain (e.g. Achilles, patellar, anterior shin).
 - Allow runners to perform Easy/Recovery runs faster than designated VDOT E-Pace.
@@ -121,6 +127,7 @@ Load detailed coaching guidance based on topic:
 ## Output Templates
 
 When delivering running coaching feedback or plans, include:
+
 1. **Summary Metrics**: Average Pace, GAP, Average HR, Cadence (spm), rTSS, and Pace Decoupling drift.
 2. **Interval Breakdown**: Split consistency, target pace compliance, and cadence stability.
 3. **Biomechanical & Fatigue Interpretation**: Impact load analysis, RPE vs Pace alignment, and form maintenance.

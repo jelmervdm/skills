@@ -53,7 +53,7 @@ Applicable to athletes competing in Sprint (750m swim / 20km bike / 5km run) and
 Load detailed coaching guidance based on topic:
 
 | Topic | Reference | Load When |
-|-------|-----------|-----------|
+| ------- | ----------- | ----------- |
 | Multisport Load Balancing | `references/multisport-load-balancing.md` | Composite TSS calculation, weekly volume allocation across swim/bike/run |
 | Brick Workouts & Transitions | `references/brick-workouts-and-transitions.md` | Bike-to-Run brick sets, T1/T2 transition procedures, flying mounts |
 | Periodization & Planning | `references/periodization-and-planning.md` | Sprint & Olympic training blocks, 3:1 load/recovery cycles |
@@ -65,10 +65,12 @@ Load detailed coaching guidance based on topic:
 ### Example 1: Multi-Sport Weekly Volume Balancing
 
 **Input Athlete Profile**:
+
 - Available weekly time: 10 hours.
 - Limiters: Strong cyclist, intermediate runner, weak swimmer (CSS 2:05/100m).
 
 **Coach Response**:
+
 - **Discipline Allocation**:
   - Swim (30%): 3.0 hours (3 sessions: 1x Technique/Drills, 1x CSS Threshold, 1x Open Water/Endurance).
   - Bike (45%): 4.5 hours (2 sessions: 1x Sweet Spot/Threshold intervals, 1x Long Endurance).
@@ -80,6 +82,7 @@ Load detailed coaching guidance based on topic:
 **Input Target**: Olympic Distance Race in 4 weeks. Goal: Master T2 run pacing.
 
 **Coach Response**:
+
 - **Brick Workout Structure**:
   - **Bike**: 90 minutes (Include 3x10m @ Olympic Race Pace / 85-88% FTP, 95 rpm).
   - **T2 Transition**: Practice rapid shoe swap ($< 45\text{ seconds}$).
@@ -91,6 +94,7 @@ Load detailed coaching guidance based on topic:
 **Input Target**: Sprint Distance Race (750m Swim, 20km Bike, 5km Run). Goal: Podium finish in age group.
 
 **Coach Response**:
+
 - **Swim Strategy**: CSS-2s pace for first 200m to establish position, then hold steady CSS pace while drafting.
 - **Bike Strategy**: Target IF 0.92 (92% FTP). High cadence (95 rpm) to preserve legs. Sip 500ml electrolyte drink with 30g carb.
 - **T2 Transition**: Elastic laces, grab race belt, sub-45s swap.
@@ -103,12 +107,14 @@ Load detailed coaching guidance based on topic:
 ## Constraints
 
 ### MUST DO
+
 - Calculate composite weekly load ($\text{TSS}_{\text{Bike}} + \text{rTSS}_{\text{Run}} + \text{sTSS}_{\text{Swim}}$) to monitor total systemic stress.
 - Limit long brick runs off the bike to $\le 30\text{ minutes}$ to avoid excessive eccentric leg muscle damage.
 - Require athlete to practice transition mechanics (T1 helmet/goggles, T2 quick-laces) prior to race week.
 - Cap bike intensity during Olympic distance races at $\le 88\%$ FTP to preserve glycogen for the 10k run.
 
 ### MUST NOT DO
+
 - Schedule hard running interval workouts on the same day as hard bike threshold sessions.
 - Allow total weekly volume to increase by more than 10% over the rolling 3-week average.
 - Ignore localized tendon pain (e.g., Achilles tightness from bike-to-run transitions).
@@ -117,6 +123,7 @@ Load detailed coaching guidance based on topic:
 ## Output Templates
 
 When delivering triathlon coaching feedback or plans, include:
+
 1. **Summary Metrics**: Weekly hours per discipline, composite TSS breakdown, limiter focus percentage.
 2. **Brick & Session Execution Breakdown**: Bike NP/IF vs Run Pace off the bike, T2 transition time, cadence shift efficiency.
 3. **Multi-Sport Fatigue & Readiness Assessment**: Systemic load status, joint/tendon health check.

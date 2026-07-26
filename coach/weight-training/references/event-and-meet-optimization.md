@@ -7,7 +7,7 @@ Protocols for powerlifting meet attempt selection, 10-day peaking tapers, and we
 ## 1. Powerlifting Attempt Selection Strategy
 
 | Attempt | % of Target Peak | Goal & Purpose |
-|---------|------------------|----------------|
+| --------- | ------------------ | ---------------- |
 | **1st Attempt (Opener)** | $90\% - 92\% \text{ 1RM}$ | Easy 2-3 RIR rep. Secures a valid total, builds stage confidence under referee commands. |
 | **2nd Attempt** | $96\% - 98\% \text{ 1RM}$ | Matches current tested peak 1RM. Should feel solid (1 RIR). |
 | **3rd Attempt** | $101\% - 103\% \text{ 1RM}$ | Lifetime PR attempt. Depends on 2nd attempt bar speed and technical execution. |

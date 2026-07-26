@@ -7,7 +7,7 @@ Comprehensive reference for target Intensity Factor (IF), Variability Index ($\t
 ## 1. Pacing Target Matrix
 
 | Event Distance | Swim Target | Bike Intensity Factor (IF) | Bike VI Limit | Marathon / Half-Marathon Target |
-|----------------|-------------|----------------------------|---------------|---------------------------------|
+| --- | --- | --- | --- | --- |
 | **70.3 (Half)** | CSS $+ 3 - 5\text{s / 100m}$ | IF $0.75 - 0.80$ ($75-80\% \text{ FTP}$) | $\text{VI} < 1.05$ | Open Half-Marathon Pace $+ 15 - 25\text{s/km}$ |
 | **140.6 (Full)** | CSS $+ 6 - 10\text{s / 100m}$ | IF $0.68 - 0.73$ ($68-73\% \text{ FTP}$) | $\text{VI} < 1.04$ | Open Marathon Pace $+ 30 - 45\text{s/km}$ |
 

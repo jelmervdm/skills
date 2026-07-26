@@ -61,7 +61,7 @@ While swimming is a non-impact sport that spares lower-body joints, upper-body m
 Load detailed coaching guidance based on topic:
 
 | Topic | Reference | Load When |
-|-------|-----------|-----------|
+| ------- | ----------- | ----------- |
 | CSS & Pace Zones | `references/css-and-pace-zones.md` | Critical Swim Speed formula, En1/En2/En3/Sp1 zones, send-off times, sTSS |
 | Workout Analysis | `references/workout-analysis.md` | SWOLF score ($\text{Time} + \text{Strokes}$), stroke rate vs DPS, pace decay |
 | Periodization & Planning | `references/periodization-and-planning.md` | Pool & Open Water blocks, structured set notation (`10x100 @ CSS+2s w/ 15s rest`) |
@@ -73,10 +73,12 @@ Load detailed coaching guidance based on topic:
 ### Example 1: Workout Analysis & SWOLF Evaluation
 
 **Input Data**:
+
 - Prescribed: 10x100m @ CSS Pace (Target 1:35/100m w/ 15s rest). Pool: 25m.
 - Actual: Reps 1-5 @ 1:34/100m (17 strokes/lap, SWOLF 40.5). Reps 6-10 @ 1:39/100m (20 strokes/lap, SWOLF 44.8).
 
 **Coach Response**:
+
 - **Diagnostic**: Severe stroke breakdown in second half. Stroke count increased by 3 strokes per lap as lats fatigued, degrading SWOLF by 4.3 points.
 - **Technical Feedback**: Focus on high elbow catch and hip rotation when fatigued rather than increasing stroke rate.
 - **Prescription**: Next threshold session, add 5s extra rest between reps or insert a 50m easy drill after rep 5 to maintain DPS.
@@ -86,6 +88,7 @@ Load detailed coaching guidance based on topic:
 **Input Target**: 1.9km (70.3) Open Water Swim. CSS: 1:40/100m.
 
 **Coach Response**:
+
 - **Pacing Split**: Target overall pace 1:43/100m (Target Time: ~32:30). First 200m @ 1:40/100m to clear mass start pack, then settle into steady CSS+3s pace.
 - **Tactics**: Draft closely behind a swimmer of similar pace ($20-30\%$ energy reduction). Sight every 6–8 stroke cycles.
 
@@ -94,6 +97,7 @@ Load detailed coaching guidance based on topic:
 **Input Status**: CSS 1:40/100m. Swimmer preparing for 1500m pool event.
 
 **Coach Response**:
+
 - **Workout Prescription**: 12 x 100m @ 1:40/100m on 1:55 send-off clock (15s rest).
 - **Warmup**: 300m Choice + 4x50m Catchup drill.
 - **Cooldown**: 200m Easy.
@@ -108,12 +112,14 @@ Load detailed coaching guidance based on topic:
 ## Constraints
 
 ### MUST DO
+
 - Calculate CSS ($400m/100m$ test) to establish objective swim pace zones.
 - Monitor SWOLF ($\text{Time per lap} + \text{Stroke count}$) to track hydrodynamic efficiency.
 - Limit hand paddle usage to $\le 30\%$ of total workout yardage to prevent shoulder joint overload.
 - Include structured drill/warmup sections ($20-25\%$ of workout) in all swim prescriptions.
 
 ### MUST NOT DO
+
 - Prescribe high-volume sprint/threshold sets to swimmers experiencing acute shoulder pain.
 - Increase weekly swim yardage by more than 10-15% over the 3-week rolling average.
 - Ignore stroke rate decay during interval sets; adjust send-off or stop set if form collapses.
@@ -121,6 +127,7 @@ Load detailed coaching guidance based on topic:
 ## Output Templates
 
 When delivering swim coaching feedback or plans, include:
+
 1. **Summary Metrics**: Total Yardage/Meterage, Average Pace/100m, CSS relative pace, SWOLF score.
 2. **Set Execution Breakdown**: Split times per rep, stroke count stability, and send-off compliance.
 3. **Technique & Hydrodynamic Assessment**: DPS evaluation, catch phase mechanics, and drag profile.

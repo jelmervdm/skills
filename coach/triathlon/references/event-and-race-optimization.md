@@ -7,7 +7,7 @@ Sprint and Olympic distance race pacing budgets, transition setup layout, and ra
 ## 1. Pacing Budget Matrix
 
 | Distance | Swim Pace | Bike Intensity Factor (IF) | Run Pace Target |
-|----------|-----------|----------------------------|-----------------|
+| --- | --- | --- | --- |
 | **Sprint** | CSS $- 2\text{s / 100m}$ | IF $0.90 - 0.95$ ($90-95\% \text{ FTP}$) | 5k Open Race Pace |
 | **Olympic** | CSS Pace | IF $0.85 - 0.88$ ($85-88\% \text{ FTP}$) | 10k Open Race Pace $+ 5 - 10\text{s/km}$ |
 

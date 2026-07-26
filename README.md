@@ -15,7 +15,7 @@ This repository is organized into domain categories. Each skill contains a Tier 
 ### 🏋️ Athletic Performance & Sports Coaching (`coach/`)
 
 | Skill Name | Directory | Primary Focus & Domain | Key Metrics & Methods |
-|------------|-----------|------------------------|-----------------------|
+| ------------ | ----------- | ------------------------ | ----------------------- |
 | **Cycling Coach** | [`coach/cycling/`](coach/cycling/SKILL.md) | Power-based cycling, workout analysis, race pacing, event optimization | Coggan Z1-Z7, FTP, NP, IF, TSS, TSB, Aerobic Decoupling, Intervals.icu |
 | **Running Coach** | [`coach/running/`](coach/running/SKILL.md) | VDOT pacing, marathon periodization, impact stress management | Jack Daniels VDOT, E/M/T/I/R paces, GAP, Cadence (spm), rTSS, Pace Decoupling |
 | **Swimming Coach** | [`coach/swimming/`](coach/swimming/SKILL.md) | CSS threshold pacing, SWOLF efficiency, stroke mechanics, shoulder health | Critical Swim Speed (CSS), SWOLF score ($\text{Time} + \text{Strokes}$), DPS, sTSS |
@@ -40,14 +40,17 @@ All skills strictly conform to the **Agent Skills Specification** (2-Tier Progre
 ## 🚀 Integration & Usage Guide
 
 ### 1. Claude Desktop & Projects
+
 - **Claude Projects**: Create a project, upload the desired `SKILL.md` and `references/*.md` files, and set project instructions.
 - **Claude Desktop**: Paste `SKILL.md` into system prompt or attach files directly into conversation context.
 
 ### 2. OpenAI (ChatGPT / Custom GPTs / API)
+
 - **Custom GPTs**: Paste `SKILL.md` instructions into the GPT Configuration box, and upload `references/*.md` into the GPT **Knowledge Files**.
 - **OpenAI API**: Load `SKILL.md` as the `system` message string.
 
 ### 3. Gemini & Antigravity IDE
+
 - **Antigravity IDE**: Tag skill files (`@coach/<sport>/SKILL.md`) in workspace prompts.
 - **Gemini API**: Pass `SKILL.md` content into `GenerativeModel(system_instruction=...)`.
 

@@ -19,7 +19,7 @@ $$\text{cTSS} = \text{TSS}_{\text{Bike}} + \text{rTSS}_{\text{Run}} + \text{sTSS
 ## 2. Weekly Time Allocation Matrix
 
 | Discipline | Volume Share | Key Session Focus |
-|------------|--------------|-------------------|
+| ------------ | -------------- | ------------------- |
 | **Swim** | $15\% - 20\%$ | 2-3 sessions/week (Focus: Hydrodynamics & CSS Threshold) |
 | **Bike** | $50\% - 55\%$ | 2-3 sessions/week (Focus: Aerobic Base & Sweet Spot / Threshold) |
 | **Run** | $25\% - 30\%$ | 3 sessions/week (Focus: Threshold Tempo, Easy, Brick Run) |

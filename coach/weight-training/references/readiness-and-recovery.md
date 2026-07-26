@@ -14,6 +14,7 @@ Guidelines for assessing central nervous system (CNS) fatigue, managing tendon s
 ## 2. Deload Week Structure
 
 Every 4–6 weeks of progressive loading, execute a planned deload:
+
 - **Volume**: Reduce total sets per muscle group by $50\%$.
 - **Load**: Reduce weight by $10\%$ (Target 3–4 RIR on all sets).
 - **Goal**: Clear accumulated systemic fatigue, resensitize muscle to tension, and allow connective tissue (tendons/ligaments) to heal.

@@ -55,10 +55,12 @@ Execute As Prescribed            Downgrade Intensity              Rest / Active 
 ### Action Protocols
 
 #### Protocol GREEN (High Readiness)
+
 - **Status**: TSB between $-10$ and $-25$, HRV normal, RHR normal.
 - **Action**: Execute prescribed workout as scheduled. If feeling exceptional during warmup, target upper range of power targets.
 
 #### Protocol YELLOW (Moderate Strain)
+
 - **Status**: TSB between $-25$ and $-30$, OR Resting HR $+4\text{ bpm}$, OR HRV slightly suppressed.
 - **Action**: Modify scheduled workout:
   - If a VO2max session is scheduled: Convert to Sweetspot or Steady Zone 2.
@@ -66,6 +68,7 @@ Execute As Prescribed            Downgrade Intensity              Rest / Active 
   - If an Endurance ride is scheduled: Keep intensity locked strictly in Zone 1 / Low Zone 2 ($55-65\% \text{ FTP}$).
 
 #### Protocol RED (High Overreaching Risk / Illness Warning)
+
 - **Status**: TSB $< -30$, OR Resting HR $> +7\text{ bpm}$, OR HRV suppressed $> 1.5\text{ StdDev}$, OR athlete reports acute joint/muscle pain or flu-like symptoms.
 - **Action**: Cancel high-intensity and endurance work:
   - Prescribe 45-minute Zone 1 spins ($< 50\% \text{ FTP}$, cadence $> 90\text{ rpm}$) OR complete passive rest day.
@@ -76,10 +79,12 @@ Execute As Prescribed            Downgrade Intensity              Rest / Active 
 ## 3. Overtraining Syndromes: Sympathetic vs. Parasympathetic
 
 ### Sympathetic Overreaching (Early Stage)
+
 - **Characteristics**: Elevated resting HR, insomnia, irritability, inability to lower HR quickly after exertion, high anxiety.
 - **Remedy**: 3–5 days of low-intensity volume drop ($50\%$ volume reduction, no Z3+ intensity).
 
 ### Parasympathetic Overreaching (Late / Severe Stage)
+
 - **Characteristics**: Very low resting HR, inability to elevate heart rate during intervals, extreme lethargy, suppressed RPE response (feels impossible to generate power).
 - **Remedy**: 7–14 days of complete rest or light recreational activity. Full re-evaluation of macrocycle plan.
 

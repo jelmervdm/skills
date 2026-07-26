@@ -7,7 +7,7 @@ Comprehensive guide for Reps in Reserve (RIR), RPE for resistance training, perc
 ## 1. Reps in Reserve (RIR) & RPE Chart
 
 | RPE Scale | Reps in Reserve (RIR) | Exertion & Proximity to Failure |
-|-----------|-----------------------|---------------------------------|
+| ----------- | ----------------------- | --------------------------------- |
 | **10** | **0 RIR** | Maximal effort. No more reps could be completed. |
 | **9.5** | **0-1 RIR** | Could not do more reps, but could take slightly more load. |
 | **9** | **1 RIR** | 1 rep definitely left in the tank. |

@@ -53,7 +53,7 @@ Applicable to athletes targeting 70.3 Half-Ironman, 140.6 Full Ironman, and inde
 Load detailed coaching guidance based on topic:
 
 | Topic | Reference | Load When |
-|-------|-----------|-----------|
+| ------- | ----------- | ----------- |
 | Pacing & Metabolic Caps | `references/pacing-and-metabolic-targets.md` | 70.3 vs 140.6 IF caps, Variability Index ($\text{VI} < 1.05$), run pacing |
 | Ultra Nutrition & Gut | `references/ultra-nutrition-and-gut-training.md` | 80-120g/hr carbs, 800-1200mg/hr sodium, GI distress remedies |
 | Periodization & Planning | `references/periodization-and-planning.md` | 24-week macrocycle, "Big Day" blocks, 21-day taper timeline |
@@ -67,6 +67,7 @@ Load detailed coaching guidance based on topic:
 **Input Athlete Context**: FTP: 300W. Weight: 75kg. Target Event: Ironman Florida (Flat course). Target CTL: 95.
 
 **Coach Response**:
+
 - **Target IF Budget**: 0.70 (Target NP: 210W).
 - **Power Cap**: Strict ceiling of 230W ($76\% \text{ FTP}$) on any headwinds or minor bridge overpasses.
 - **Variability Index Target**: $\text{VI} \le 1.04$ (Keep AP within 5W of NP).
@@ -77,6 +78,7 @@ Load detailed coaching guidance based on topic:
 **Input Target**: Ironman Arizona in 21 days. Current CTL: 102, ATL: 110 (TSB: -8).
 
 **Coach Response**:
+
 - **Week -3 (Taper Start)**: Total volume $-25\%$. Long bike 4h (w/ 3x15m @ 70.3 pace). Long run 1h 45m easy.
 - **Week -2**: Total volume $-45\%$. Long bike 2.5h (w/ 4x5m @ 140.6 pace). Long run 1h 10m.
 - **Week -1 (Race Week)**: Total volume $-65\%$. Bike 60m with 2x2m openers. Rest day Thursday. Race Sunday.
@@ -89,6 +91,7 @@ Load detailed coaching guidance based on topic:
 **Input Athlete Status**: Experiencing stomach sloshing and nausea after 3 hours on the bike when consuming gels.
 
 **Coach Response**:
+
 - **Diagnostic**: Osmotic mismatch caused by taking gels with concentrated sports drinks instead of plain water.
 - **Protocol Adjustment**: Switch to a dual-source carbohydrate ratio (2:1 Glucose:Fructose). Take gels with 150-200ml plain water ONLY.
 - **Progression**: Start at 60g/hr in Week 1; increment by 10g/hr each weekly long ride until reaching 90g/hr smoothly.
@@ -103,12 +106,14 @@ Load detailed coaching guidance based on topic:
 ## Constraints
 
 ### MUST DO
+
 - Cap 140.6 Full Ironman bike target IF at $\le 0.73$ ($\le 73\% \text{ FTP}$) regardless of athlete enthusiasm.
 - Limit long running workouts during 140.6 training to a maximum duration of $\le 2\text{ hours } 45\text{ minutes}$.
 - Enforce 80–120g/hr carbohydrate fueling targets during key long training rides to build gastrointestinal absorption capacity.
 - Require a full 21-day exponential taper prior to 140.6 competitions.
 
 ### MUST NOT DO
+
 - Allow athletes to perform Bike IF $> 0.80$ during a 70.3 or $> 0.74$ during a 140.6 event.
 - Recommend introducing untried nutritional products or new equipment on race day.
 - Ignore persistent gastrointestinal cramping, hyponatremia symptoms, or dark urine during ultra workouts.
@@ -117,6 +122,7 @@ Load detailed coaching guidance based on topic:
 ## Output Templates
 
 When delivering Ironman coaching feedback or plans, include:
+
 1. **Summary Metrics**: Target IF, Target Watts/Pace, Hourly Carbohydrate (g/hr) & Sodium (mg/hr) targets, TSB projection.
 2. **Segment Execution Breakdown**: Swim CSS delta, Bike NP vs AP ($\text{VI}$ score), Run pace preservation index.
 3. **Metabolic & Gut Readiness Assessment**: Glycogen preservation score, GI absorption status, fatigue balance.

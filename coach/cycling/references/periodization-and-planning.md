@@ -16,6 +16,7 @@ Macrocycle (Annual / Multi-Month Season Goal)
 ```
 
 ### Training Block Cycles
+
 - **3:1 Cycle (Standard)**: 3 loading weeks followed by 1 deload week. Recommended for athletes under 40 with good recovery capacity.
 - **2:1 Cycle (Masters / High Stress)**: 2 loading weeks followed by 1 deload week. Ideal for athletes over 40, high life-stress athletes, or intense VO2max blocks.
 
@@ -24,7 +25,7 @@ Macrocycle (Annual / Multi-Month Season Goal)
 ## 2. Training Phases & Adaptations
 
 | Phase | Duration | Core Objective | Primary Target Intensity | TSS Ramp Rate |
-|-------|----------|----------------|--------------------------|---------------|
+| ------- | ---------- | ---------------- | -------------------------- | --------------- |
 | **Base 1-2** | 6-12 weeks | Aerobic foundation, mitochondrial density, lipid oxidation | Zone 2 Endurance ($60-75\% \text{ FTP}$) | $+3 - 5\text{ TSS/wk}$ |
 | **Base 3 / Sweet Spot** | 4-6 weeks | Aerobic power, fatigue resistance, muscular endurance | Sweet Spot ($88-93\% \text{ FTP}$) & Tempo | $+5 - 7\text{ TSS/wk}$ |
 | **Build 1-2** | 6-8 weeks | FTP elevation, lactate clearance, VO2max capacity | Threshold ($95-105\%$) & VO2max ($106-120\%$) | $+5 - 8\text{ TSS/wk}$ |
@@ -36,14 +37,17 @@ Macrocycle (Annual / Multi-Month Season Goal)
 ## 3. Training Intensity Distribution Models
 
 ### A. Polarized Model (80/20 Rule)
+
 - **Distribution**: $\sim 80\%$ Volume in Zone 1-2 (low intensity), $\sim 20\%$ Volume in Zone 5-7 (high intensity). $\sim 0\%$ in Zone 3/4.
 - **Best Used For**: Mid-to-high volume endurance athletes ($> 10\text{ hours/week}$), grand fondos, ultra-endurance, and VO2max expansion blocks.
 
 ### B. Pyramidal Model
+
 - **Distribution**: Largest volume in Zone 2, decreasing volume through Zone 3/4, smallest volume in Zone 5+.
 - **Best Used For**: Traditional road racing, stage races, and general fitness progression across moderate volume ($7 - 12\text{ hours/week}$).
 
 ### C. Sweet Spot Model
+
 - **Distribution**: High concentration of time at 88–93% FTP combined with Zone 2 volume.
 - **Best Used For**: Time-crunched athletes ($5 - 8\text{ hours/week}$) seeking maximal threshold adaptations per unit of training time.
 

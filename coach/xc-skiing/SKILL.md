@@ -53,7 +53,7 @@ Applicable to Nordic skiers, biathletes, roller-skiing athletes, and ski maratho
 Load detailed coaching guidance based on topic:
 
 | Topic | Reference | Load When |
-|-------|-----------|-----------|
+| ------- | ----------- | ----------- |
 | Subtechnique Kinematics | `references/technique-and-subtechnique-metrics.md` | V1, V2, V2-Alt, Diagonal Stride, Double Poling mechanics & gear selection |
 | Workout Analysis | `references/workout-analysis.md` | Poling frequency, cycle length, upper vs lower body power distribution |
 | Periodization & Planning | `references/periodization-and-planning.md` | Dryland roller-skiing, hill bounding with poles, winter macrocycle |
@@ -65,10 +65,12 @@ Load detailed coaching guidance based on topic:
 ### Example 1: Skate Ski Subtechnique Diagnostic
 
 **Input Data**:
+
 - Terrain: 3km climb with varying gradients ($4\%$ to $10\%$).
 - Observed: Skier stayed in V1 (Offset) technique across the entire climb, even on $4\%$ flat sections. Heart rate spiked to $96\% \text{ HR}_{\max}$.
 
 **Coach Response**:
+
 - **Diagnostic**: Gear selection error. Remaining in V1 on $4\%$ grades caps top speed and over-fatigues the dominant poling side.
 - **Technical Correction**: Shift to V2 (One-Dance) on $4\%$ sections to maximize glide per stroke. Downshift to V1 only when gradient exceeds $7\%$.
 - **Drill**: Execute 5x300m gradient transition repeats, practicing smooth V2-to-V1-to-V2 shifting on the move.
@@ -78,6 +80,7 @@ Load detailed coaching guidance based on topic:
 **Input Event**: Engadin Ski Marathon (42km Freestyle). Expected Temp: $-8^\circ\text{C}$ ($18^\circ\text{F}$). Goal: Sub-2:15:00.
 
 **Coach Response**:
+
 - **Hydration Setup**: Insulated hydration belt with warm isotonic drink ($60\text{g}$ carb/hr). Cover bite valve to prevent freezing.
 - **Nutrition Intake**: Consuming gels every 30 minutes; carry gels in inner suit pocket against skin to keep warm.
 - **Pacing**: Draft in fast trains across the flat lakes (Km 0–15). Save energy for the St. Moritz climbing section.
@@ -89,6 +92,7 @@ Load detailed coaching guidance based on topic:
 **Input Context**: Autumn dryland phase. 2 hours available. Goal: Double-poling specific endurance.
 
 **Coach Response**:
+
 - **Session Prescribed**: 90m Roller Ski Double-Poling (DP) on rolling bike path.
 - **Structure**: Warmup 15m easy. Main set: 4x10m DP @ Threshold pace (cadence 50-55 poling cycles/min) w/ 3m easy leg-skate recovery. Cooldown 15m.
 - **Safety Note**: Use carbide-tipped roller ski ferrules; wear high-visibility vest, helmet, and eye protection.
@@ -103,12 +107,14 @@ Load detailed coaching guidance based on topic:
 ## Constraints
 
 ### MUST DO
+
 - Require dynamic subtechnique shifting (V1 $\leftrightarrow$ V2 $\leftrightarrow$ V2-Alt) based on terrain gradient.
 - Prescribe warm liquid carbohydrate solutions ($60-90\text{g/hr}$) for workouts in sub-zero temperatures to prevent frozen fluids and GI distress.
 - Recommend thermal heat-exchanger masks (e.g. Airtrim) for high-intensity workouts below $-12^\circ\text{C}$ to protect lung tissue from exercise-induced bronchoconstriction.
 - Include upper-body pulling strength and core stability exercises in off-season plans.
 
 ### MUST NOT DO
+
 - Allow athletes to roller-ski on public roads without helmet, eye protection, and high-visibility clothing.
 - Recommend high-volume double-poling workouts to skiers with acute lower back herniation or triceps tendonitis.
 - Ignore severe cold airway coughing (bronchospasm) after cold-weather interval sessions.
@@ -117,6 +123,7 @@ Load detailed coaching guidance based on topic:
 ## Output Templates
 
 When delivering XC skiing coaching feedback or plans, include:
+
 1. **Summary Metrics**: Average Speed, Total Elevation Gain, Poling Frequency (cycles/min), Heart Rate Zone distribution, Temperature/Weather conditions.
 2. **Subtechnique Kinematic Breakdown**: V1 vs V2 usage percentage, Glide phase duration, Weight transfer quality, Double-poling hip angle.
 3. **Seasonal & Physiological Assessment**: Upper-body vs lower-body fatigue split, Cold respiratory stress score, Seasonal phase alignment (Dryland vs On-Snow).

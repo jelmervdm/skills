@@ -9,7 +9,7 @@ Protocol for evaluating running impact fatigue, monitoring bone/tendon health, a
 Unlike non-impact sports (cycling/swimming), running subjects legs to $2.5 - 3.0\times$ body weight in ground reaction force per foot strike.
 
 | Pain Character | Diagnostic Suspicion | Immediate Action |
-|----------------|----------------------|------------------|
+| ---------------- | ---------------------- | ------------------ |
 | **Dull Aches (Fades with warmup)** | Muscle tightness / DOMS | Proceed with Easy (E) run; foam roll. |
 | **Point Tenderness on Bone (Shin, Metatarsal)** | Stress Fracture / Reaction | STOP RUNNING IMMEDIATELY. Cross-train (swim/bike) 7-14 days. |
 | **Sharp Tendon Pain (Achilles, Patellar)** | Tendonitis / Tendinopathy | Cancel high-speed/hill work; load eccentrically (calf raises). |

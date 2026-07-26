@@ -21,11 +21,13 @@ Not all races require maximum physical preparation. Structuring events into prio
 Before generating an event pacing plan, perform a 4-point course diagnostic:
 
 ### 1. Elevation Profile & Gradient Distribution
+
 - **Flat / Rolling ($< 15\text{m climbing per km}$)**: Focus on aerodynamics ($\text{CdA}$), drafting position, and steady power output ($\text{VI} < 1.05$).
 - **Hilly / Punchy ($15 - 25\text{m climbing per km}$)**: Allocate power budget for short gradient spikes ($105-115\% \text{ FTP}$ for $<3\text{m}$), cap power on flats.
 - **Alpine / Mountain ($> 25\text{m climbing per km}$)**: Strict power-to-weight ($\text{W/kg}$) management ($92-97\% \text{ FTP}$ sustained on long passes).
 
 ### 2. Environmental Factors
+
 - **Altitude ($> 1500\text{m}$ / $5000\text{ft}$)**: Reduce target FTP by $\sim 1\%$ per $300\text{m}$ above $1500\text{m}$.
 - **Heat & Humidity ($> 28^\circ\text{C}$ / $82^\circ\text{F}$)**: Shift target IF down by $3-5\%$. Increase sodium intake to $700-1000\text{mg/L}$.
 
@@ -45,6 +47,7 @@ Macrocycle Fitness Peak (CTL ~ 90)
 ```
 
 ### Taper Rules
+
 1. **Reduce Volume, Maintain Intensity**: Cut total hours by $40-50\%$, but retain short race-intensity touches ($Z4/Z5$) to prevent feeling sluggish.
 2. **Target TSB on Race Day**: Aim for a Training Stress Balance (Form) between $+10$ and $+25$.
 
@@ -53,12 +56,14 @@ Macrocycle Fitness Peak (CTL ~ 90)
 ## 4. Race Day Execution Protocol
 
 ### Pre-Race Timeline
+
 - **T-minus 3.5 Hours**: Pre-race meal ($2-3\text{ g/kg}$ low-fiber carbohydrate).
 - **T-minus 60 Minutes**: Sip $500\text{ml}$ fluid with electrolytes. Consume 1 gel ($25-30\text{g}$ carb).
 - **T-minus 30 Minutes**: 15-minute progressive warm-up (5m Z2, 3x30s build efforts, 5m easy).
 - **T-minus 10 Minutes**: Final energy gel + staging.
 
 ### Tactical Reminders
+
 - **First 10% of Race**: Stay disciplined. Over-powering the start is the #1 cause of mid-race collapse.
 - **Drafting Efficiency**: Save up to $30-40\%$ energy by riding in the paceline.
 - **Fueling Clock**: Set a recurring 20-minute timer for carbohydrate intake ($60-90\text{g/hr}$).

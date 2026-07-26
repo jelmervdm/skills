@@ -21,11 +21,13 @@ All skills in this repository must strictly comply with the **Agent Skills Progr
 
 4. **Validation Check**:
    Before submitting a Pull Request, run the local validation scripts:
+
    ```bash
    python3 scripts/validate-skills.py --skills-dir coach --check yaml
    python3 scripts/validate-skills.py --skills-dir coach --check references
    python3 scripts/validate-skills.py --skills-dir coach --check crossrefs
    ```
+
    Ensure your contribution results in **0 errors** and **0 warnings**.
 
 ---

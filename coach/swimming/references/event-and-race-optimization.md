@@ -7,6 +7,7 @@ Tactical protocols for pool racing, open-water drafting, buoy navigation, and si
 ## 1. Open Water Drafting & Energy Preservation
 
 Drafting in swimming yields up to $20-30\%$ energy savings:
+
 - **Direct Feet Draft**: Position head 0.5m directly behind leading swimmer's toes. Maximum drag reduction.
 - **Hip / Flank Draft**: Position head adjacent to leading swimmer's hip. Provides speed boost when passing or navigating packs.
 

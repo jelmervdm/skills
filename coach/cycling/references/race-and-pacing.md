@@ -9,7 +9,7 @@ Quantitative pacing formulas, gradient-based power allocation rules, and intra-e
 Pacing accuracy is the single greatest determinant of endurance performance. Prescribe Target Intensity Factor (IF) based on duration:
 
 | Event Type / Duration | Target IF (% FTP) | Target VI | Primary Pacing Risk |
-|-----------------------|-------------------|-----------|---------------------|
+| ----------------------- | ------------------- | ----------- | --------------------- |
 | **10k / 20k Time Trial ($< 30\text{ mins}$)** | $102\% - 105\%$ | $< 1.03$ | Starting too fast in first 3 minutes |
 | **40k Time Trial ($~60\text{ mins}$)** | $98\% - 102\%$ | $< 1.03$ | Over-powering headwind segments |
 | **Gran Fondo / Century ($3 - 5\text{ hours}$)** | $75\% - 82\%$ | $< 1.08$ | Surging on early climbs ($> 110\%$) |
@@ -38,6 +38,7 @@ Target: 90-95% Target IF      Target: 100-105% Target IF    Target: 105-110% Tar
 ```
 
 ### Climbing Power Caps
+
 - **Long Climbs ($> 20\text{ minutes}$)**: Cap max power at $105\% \text{ FTP}$. Average power should stay at $93-98\% \text{ FTP}$.
 - **Short Climbs ($2 - 5\text{ minutes}$)**: Cap max power at $120\% \text{ FTP}$. Ensure W' reserve is not depleted.
 
@@ -64,6 +65,7 @@ Standard Duration               High Intensity / Long            Hot Conditions
 ```
 
 ### Carbo-Loading Taper Protocol ($48\text{ Hours}$ Pre-Race)
+
 - **Carbohydrate Target**: $8 - 10\text{ g/kg}$ body weight per 24 hours.
 - **Dietary Adjustments**: Low fiber, low fat, high glycemic carbohydrates (white rice, pasta, bagels, fruit juice) to maximize muscle glycogen storage without GI distress.
 
