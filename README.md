@@ -49,10 +49,11 @@ All skills strictly conform to the **Agent Skills Specification** (2-Tier Progre
 - **Custom GPTs**: Paste `SKILL.md` instructions into the GPT Configuration box, and upload `references/*.md` into the GPT **Knowledge Files**.
 - **OpenAI API**: Load `SKILL.md` as the `system` message string.
 
-### 3. Gemini & Antigravity IDE
+### 3. VS Code & Antigravity IDE
 
-- **Antigravity IDE**: Tag skill files (`@coach/<sport>/SKILL.md`) in workspace prompts.
-- **Gemini API**: Pass `SKILL.md` content into `GenerativeModel(system_instruction=...)`.
+- **Workspace Skill Discovery**: Copy desired skill folders into `.agents/skills/` within your project root (e.g. `.agents/skills/cycling/` or `.agents/skills/coach/cycling/`). Agentic IDEs automatically detect and auto-load these skills.
+- **Direct Workspace Referencing**: Tag skill files directly in agent prompts using `@coach/<sport>/SKILL.md`.
+- **Gemini API**: Load `SKILL.md` content directly into `GenerativeModel(system_instruction=...)`.
 
 ---
 
