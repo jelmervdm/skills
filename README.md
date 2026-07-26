@@ -37,23 +37,63 @@ All skills strictly conform to the **Agent Skills Specification** (2-Tier Progre
 
 ---
 
-## 🚀 Integration & Usage Guide
+## 🚀 Installation & Integration Options
 
-### 1. Claude Desktop & Projects
+> [!TIP]
+>
+> ### 💡 Zero-Dependency Native Usage (No CLI or Plugins Required)
+>
+> Every skill in this repository is simply a plain Markdown file (`SKILL.md`). **You do not need Node.js, `npx`, plugins, or marketplace tools to use them.** You can simply copy the contents of any `SKILL.md` into your AI assistant's System Prompt, Project Context, or Custom GPT instructions!
 
-- **Claude Projects**: Create a project, upload the desired `SKILL.md` and `references/*.md` files, and set project instructions.
-- **Claude Desktop**: Paste `SKILL.md` into system prompt or attach files directly into conversation context.
+### 1. Manual File Copy / Drop-In (Simplest & Zero Setup)
 
-### 2. OpenAI (ChatGPT / Custom GPTs / API)
+- **VS Code & Antigravity IDE**: Create a folder named `.agents/skills/` in your project root and copy skill folders into it. The IDE agent automatically reads it.
+- **Claude Projects / Desktop**: Open [Claude.ai](https://claude.ai), create a Project, and upload `SKILL.md` and `references/*.md` directly as project context.
+- **ChatGPT / Custom GPTs**: Paste `SKILL.md` into Custom GPT System Instructions and upload `references/` into Knowledge Files.
+- **Local User Directory**: `cp -r ./coach/* ~/.claude/skills/` or `~/.agents/skills/`.
 
-- **Custom GPTs**: Paste `SKILL.md` instructions into the GPT Configuration box, and upload `references/*.md` into the GPT **Knowledge Files**.
-- **OpenAI API**: Load `SKILL.md` as the `system` message string.
+### 2. Optional CLI & GitHub Install Shortcuts
 
-### 3. VS Code & Antigravity IDE
+- **Claude Code CLI**:
+
+  ```bash
+  claude plugin install https://github.com/jelmervdm/skills
+  ```
+
+- **Agent Skills CLI** (Installs to 40+ AI Agents including Cursor, Windsurf, Claude):
+
+  ```bash
+  npx agent-skills-cli@latest add @jelmervdm/skills
+  ```
+
+- **skills.sh Ecosystem**:
+
+  ```bash
+  npx skills add jelmervdm/skills
+  ```
+
+- **Global User Directory (Local Copy)**:
+
+  ```bash
+  mkdir -p ~/.claude/skills
+  cp -r ./coach/* ~/.claude/skills/
+  ```
+
+### 2. VS Code & Antigravity IDE
 
 - **Workspace Skill Discovery**: Copy desired skill folders into `.agents/skills/` within your project root (e.g. `.agents/skills/cycling/` or `.agents/skills/coach/cycling/`). Agentic IDEs automatically detect and auto-load these skills.
 - **Direct Workspace Referencing**: Tag skill files directly in agent prompts using `@coach/<sport>/SKILL.md`.
 - **Gemini API**: Load `SKILL.md` content directly into `GenerativeModel(system_instruction=...)`.
+
+### 3. Claude Desktop & Projects
+
+- **Claude Projects**: Create a project, upload the desired `SKILL.md` and `references/*.md` files, and set project instructions.
+- **Claude Desktop**: Paste `SKILL.md` into system prompt or attach files directly into conversation context.
+
+### 4. OpenAI (ChatGPT / Custom GPTs / API)
+
+- **Custom GPTs**: Paste `SKILL.md` instructions into the GPT Configuration box, and upload `references/*.md` into the GPT **Knowledge Files**.
+- **OpenAI API**: Load `SKILL.md` as the `system` message string.
 
 ---
 
