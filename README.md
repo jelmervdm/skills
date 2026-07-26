@@ -28,6 +28,16 @@ This repository is organized into domain categories. Each skill contains a Tier 
 
 ---
 
+## 🔌 Live Athletic Data Integration (MCP Server)
+
+To enable your AI coaching skills to directly fetch live workouts, fitness metrics (CTL, ATL, TSB), wellness signals (HRV, RHR, Sleep), and activity stream data from [Intervals.icu](https://intervals.icu), pair these skills with the **[`intervals.icu-mcp`](https://github.com/jelmervdm/intervals.icu-mcp)** server:
+
+- **Repository**: [`https://github.com/jelmervdm/intervals.icu-mcp`](https://github.com/jelmervdm/intervals.icu-mcp)
+- **Capability**: Provides live tools and resources for AI agents to query Intervals.icu API endpoints (fitness trends, power/HR stream data, workout creation, and event calendar sync).
+- **Supported Environments**: Claude Desktop, Antigravity IDE, Cursor, and VS Code.
+
+---
+
 ## 🛠️ Repository Architecture
 
 All skills strictly conform to the **Agent Skills Specification** (2-Tier Progressive Disclosure):
