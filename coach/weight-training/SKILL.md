@@ -10,7 +10,7 @@ metadata:
   role: expert
   scope: analysis
   output-format: analysis-and-code
-  related-skills: cycling, running, swimming, triathlon, ironman, xc-skiing
+  related-skills: cycling, running, swimming, triathlon, ironman, xc-skiing, rowing
 ---
 
 # Weight Training Coach
