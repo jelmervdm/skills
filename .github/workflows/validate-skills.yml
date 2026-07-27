@@ -36,5 +36,5 @@ jobs:
 
       - name: Lint Markdown Files
         run: |
-          npx markdownlint-cli *.md coach/*/*.md coach/*/references/*.md sysadmin/*/*.md sysadmin/*/references/*.md
+          npx markdownlint-cli *.md .github/*.md .github/ISSUE_TEMPLATE/*.md coach/*/*.md coach/*/references/*.md sysadmin/*/*.md sysadmin/*/references/*.md
 

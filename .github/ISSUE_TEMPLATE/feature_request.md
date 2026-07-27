@@ -1,17 +1,28 @@
 ---
-name: Proposal for New Sport Skill
-about: Suggest a new specialized athletic skill (e.g. Rowing, Alpine Skiing, Track & Field)
+name: Feature Request / New Skill Proposal
+about: Suggest a new specialized Agent Skill or repository enhancement.
 title: '[SKILL]: '
 labels: 'enhancement'
 assignees: ''
 
 ---
 
-## 🏃 Sport / Discipline Name
-*Name of the sport or athletic discipline.*
+## 🎯 Proposed Skill / Feature Name
 
-## 🎯 Target Audience & Primary Use Cases
-*Who is this skill for, and what workouts/events does it analyze?*
+*Name of the proposed skill or repository enhancement (e.g., `sysadmin/proxmox-admin`, `developer/python-expert`).*
+
+## 📁 Category & Domain
+
+*Domain category (e.g. `coach/`, `sysadmin/`, `developer/`, `writing/`, `productivity/`).*
+
+## 💡 Target Audience & Primary Use Cases
+
+*Who is this skill for, and what problems or tasks does it solve?*
 
 ## 📚 Key Reference Topics
-*What technical reference files should be included in `references/`? (e.g. threshold zones, technique drills, race pacing).*
+
+*What technical reference files should be included in `references/*.md`?*
+
+## 🔒 Security & Safety Considerations
+
+*Any specific constraints, MUST DO / MUST NOT DO rules, or safety guardrails required for this domain.*

@@ -115,8 +115,20 @@ All skills strictly conform to the **Agent Skills Specification** (2-Tier Progre
 
 ---
 
+## 🤝 Community & Governance
+
+We welcome contributions across all skill domains! To maintain high repository standards and foster a welcoming community:
+
+- 📋 **[Contributing Guidelines](CONTRIBUTING.md)**: Rules for adding skills, progressive disclosure standards, and validation commands.
+- 🛡️ **[Code of Conduct](CODE_OF_CONDUCT.md)**: Community standards adapted from the Contributor Covenant v2.1.
+- 🔒 **[Security Policy](SECURITY.md)**: Disclosure policy for reporting security issues and prompt injection vectors.
+- 💡 **[Propose a New Skill](https://github.com/jelmervdm/skills/issues/new?template=feature_request.md)**: Submit proposals for new specialized skills.
+- 🐛 **[Report a Bug](https://github.com/jelmervdm/skills/issues/new?template=bug_report.md)**: Report skill errors, broken links, or validator issues.
+
+---
+
 ## ⚖️ License & Credit
 
-This repository is licensed under the **MIT License**.  
+This repository is licensed under the **[MIT License](LICENSE)**.  
 Created and maintained by **Jelmer** ([@jelmervdm](https://github.com/jelmervdm)).  
 Feel free to fork, adapt, and expand into other domains! Please retain copyright credit in forks as required by the MIT License.
