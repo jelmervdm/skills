@@ -25,6 +25,12 @@ This repository is organized into domain categories. Each skill contains a Tier 
 | **Ironman Coach** | [`coach/ironman/`](coach/ironman/SKILL.md) | 70.3 & 140.6 ultra-endurance pacing, high-carb gut training, 21-day taper | Bike IF caps ($\le 0.73$), 80-120g/hr carbs, 800-1200mg/hr sodium, Special Needs |
 | **XC Skiing Coach** | [`coach/xc-skiing/`](coach/xc-skiing/SKILL.md) | Skate & Classic subtechniques, roller skiing, cold-air airway safety | V1/V2/V2-Alt shifting, Double Poling core flex, Roller-skiing, Vasaloppet |
 
+### 🛡️ System Administration & Security (`sysadmin/`)
+
+| Skill Name | Directory | Primary Focus & Domain | Key Metrics & Methods |
+| ------------ | ----------- | ------------------------ | ----------------------- |
+| **Firewall Admin** | [`sysadmin/firewall-admin/`](sysadmin/firewall-admin/SKILL.md) | Enterprise firewall rule design, stateful packet filtering, NAT, VPN tunnels, threat inspection | Zone Security (DMZ/LAN/WAN), SNAT/DNAT, IKEv2 IPsec, WireGuard, `nftables`, IPS/DPI |
+
 *(More categories—such as Software Engineering, Writing & Communications, and Productivity—can be added as dedicated skill subdirectories!)*
 
 ---
