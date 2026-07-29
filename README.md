@@ -24,6 +24,7 @@ This repository is organized into domain categories. Each skill contains a Tier 
 | **Triathlon Coach** | [`coach/triathlon/`](coach/triathlon/SKILL.md) | Multi-sport load balancing, brick workouts, transition mechanics (T1/T2) | Composite Load ($\text{cTSS}$), T2 Brick runs, T1/T2 setup, Sprint/Olympic pacing |
 | **Ironman Coach** | [`coach/ironman/`](coach/ironman/SKILL.md) | 70.3 & 140.6 ultra-endurance pacing, high-carb gut training, 21-day taper | Bike IF caps ($\le 0.73$), 80-120g/hr carbs, 800-1200mg/hr sodium, Special Needs |
 | **XC Skiing Coach** | [`coach/xc-skiing/`](coach/xc-skiing/SKILL.md) | Skate & Classic subtechniques, roller skiing, cold-air airway safety | V1/V2/V2-Alt shifting, Double Poling core flex, Roller-skiing, Vasaloppet |
+| **Sports Nutrition Coach** | [`coach/sports-nutrition/`](coach/sports-nutrition/SKILL.md) | Evidence-based sports nutrition, macro periodization, intra-workout fueling, RED-S | Carbohydrate scaling (3-12g/kg), 30-120g/h carbs, 300-1000mg/h sodium, EA $\ge 45$, AIS supplements |
 
 ### 🛡️ System Administration & Security (`sysadmin/`)
 
