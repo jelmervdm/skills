@@ -23,10 +23,12 @@ Carbohydrate (CHO) requirements depend heavily on muscle glycogen depletion rate
 ## 2. Protein Requirements & Muscle Protein Synthesis (MPS)
 
 ### Total Daily Dosage
+
 - **Endurance Athletes**: $1.6\text{--}1.8\text{ g/kg/day}$ (supports mitochondrial protein synthesis, tissue repair, and amino acid oxidation during long bouts).
 - **Strength / Hypertrophy Athletes**: $1.6\text{--}2.2\text{ g/kg/day}$ (up to $2.4\text{ g/kg/day}$ during energetic deficits to preserve lean mass).
 
 ### Protein Timing & Distribution
+
 - Spreading protein across 4–5 discrete meals every 3–4 hours produces superior 24-hour muscle protein synthesis compared to skewed protein intake.
 - **Per-Meal Target**: $0.40\text{--}0.55\text{ g/kg/meal}$ (approx. 30–45g high-quality protein per meal).
 - **Leucine Trigger**: Each protein dose should contain $\ge 3.0\text{g}$ of L-leucine to fully stimulate the mTORC1 pathway.

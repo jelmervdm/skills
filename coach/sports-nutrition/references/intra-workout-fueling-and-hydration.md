@@ -26,9 +26,11 @@ Carbohydrate absorption is limited by intestinal transport capacity. Glucose rel
 Dehydration exceeding 2% of body mass causes cardiovascular drift, elevated core temperature, and reduced cardiac output.
 
 ### Sweat Rate Formula
+
 $$\text{Sweat Rate (L/hr)} = \frac{(\text{Pre-Exercise Mass (kg)} - \text{Post-Exercise Mass (kg)}) + \text{Fluid Consumed (L)} - \text{Urine Output (L)}}{\text{Exercise Duration (hours)}}$$
 
 ### Fluid Guidance
+
 - Target replacement of **60 – 80%** of total sweat losses during exercise.
 - Avoid over-drinking beyond 100% of weight loss to prevent Exercise-Associated Hyponatremia (EAH).
 
@@ -47,6 +49,7 @@ $$\text{Sweat Rate (L/hr)} = \frac{(\text{Pre-Exercise Mass (kg)} - \text{Post-E
 Ingesting $> 60\text{ g/h}$ of carbohydrates during intense exercise can induce gastrointestinal distress (bloating, nausea, cramping) if the intestinal tract is not adapted.
 
 ### 4-Week Gut Adaptation Progression
+
 1. **Week 1–2**: Increase intra-workout CHO to 60 g/h on all long sessions using a 2:1 glucose:fructose mix. Consistently consume fluid with gels.
 2. **Week 3**: Elevate target to 75–90 g/h during race-pace tempo blocks. Increase liquid volume to match gel concentration ($6\text{--}8\%\text{ carbohydrate solution}$).
 3. **Week 4**: Test peak race-day target (90–100 g/h) during a simulated long workout. Evaluate GI comfort, stool consistency, and energy stability.

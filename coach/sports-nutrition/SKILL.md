@@ -68,10 +68,12 @@ Load detailed nutrition reference modules based on topic:
 ### Example 1: Marathon Intra-Workout Fueling & Hydration Plan
 
 **Input Athlete Profile**:
+
 - Weight: 70 kg, Target Marathon Time: 3 hours 15 minutes (~4.5 min/km pace).
 - Estimated sweat rate: 1.0 L/hr, moderate sweat sodium.
 
 **Nutrition Response**:
+
 - **Pre-Race Loading**: 10 g/kg/day carbohydrates (700g/day) for 36 hours pre-race with low fiber and low fat.
 - **Pre-Race Breakfast (3h prior)**: 2.5 g/kg carbs (175g) e.g., oatmeal with banana, honey, white toast, plus 500ml sodium-fortified fluid.
 - **Intra-Race Fueling**: 75 g/h carbohydrates using a 1:0.8 maltodextrin:fructose gel blend (taking one 30g carb gel every 24 minutes).
@@ -81,9 +83,11 @@ Load detailed nutrition reference modules based on topic:
 ### Example 2: Strength Athlete Protein & Macronutrient Periodization
 
 **Input Athlete Profile**:
+
 - Weight: 85 kg, Body Fat: 15% (FFM = 72.25 kg). Hypertrophy phase with 5x/week lifting.
 
 **Nutrition Response**:
+
 - **Daily Energy Target**: ~3,100 kcal ($\text{TDEE} + 300\text{ kcal}$ slight surplus).
 - **Protein Distribution**: 2.0 g/kg total (170g/day), split into 4 meals of 42.5g protein (each containing $\ge 3\text{g}$ leucine) spaced 3.5–4 hours apart, including 40g casein before sleep.
 - **Carbohydrates**: 5.5 g/kg (467g/day) focused around training (100g pre-workout, 120g post-workout).
@@ -92,9 +96,11 @@ Load detailed nutrition reference modules based on topic:
 ### Example 3: RED-S Assessment & Energy Availability Calculation
 
 **Input Athlete Profile**:
+
 - 58 kg female runner, FFM = 48 kg, Energy Intake = 1,800 kcal/day, Exercise Energy Expenditure = 900 kcal/day. Experiencing amenorrhea and recurrent bone stress injuries.
 
 **Nutrition Response**:
+
 - **Energy Availability Calculation**:
   $$\text{EA} = \frac{1,800 - 900}{48} = 18.75\text{ kcal/kg FFM/day}$$
 - **Evaluation**: Severely low Energy Availability ($\text{EA} < 30\text{ kcal/kg FFM/day}$). High risk for RED-S clinical triad.
