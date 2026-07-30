@@ -9,7 +9,13 @@ Low Energy Availability (LEA) occurs when an athlete's dietary energy intake is 
 
 ## 1. Calculating Energy Availability (EA)
 
-$$\text{Energy Availability (EA)} = \frac{\text{Energy Intake (kcal)} - \text{Exercise Energy Expenditure (kcal)}}{\text{Fat-Free Mass (FFM, kg)}}$$
+$$\text{Energy Availability (EA)} = \frac{\text{Energy Intake (kcal)} - \text{Exercise Energy Expenditure (EEE, kcal)}}{\text{Fat-Free Mass (FFM, kg)}}$$
+
+### Sourcing Exercise Energy Expenditure (EEE)
+
+- **Digital Platforms**: Automatically retrieve workout energy expenditure (kcal / kJ) from connected digital tools (such as `intervals.icu`, Garmin, Strava, Apple Health, or power meters). For cycling, $1\text{ kJ work} \approx 1\text{ kcal metabolic burn}$.
+- **Athlete Prompting**: If digital data is unavailable, ask the athlete directly for workout duration, intensity (power/HR), and estimated calorie burn before estimating EA.
+- **Never Assume**: Do not hardcode or guess EEE when calculating daily EA.
 
 ### Clinical Thresholds
 
@@ -21,15 +27,22 @@ $$\text{Energy Availability (EA)} = \frac{\text{Energy Intake (kcal)} - \text{Ex
 
 ---
 
-## 2. RED-S Clinical Indicators & Triad Symptoms
+## 2. Gender-Specific RED-S Clinical Indicators & Triad Symptoms
 
-Prolonged Low Energy Availability triggers systemic physiological disruption across multiple organ systems:
+Prolonged Low Energy Availability triggers systemic physiological disruption across multiple organ systems, presenting with biological sex differences:
 
-- **Endocrine & Reproductive System**: Suppression of the hypothalamic-pituitary-gonadal axis, leading to functional hypothalamic amenorrhea (FHA) in females and suppressed serum free testosterone/libido in males.
-- **Bone Health & Structural Integrity**: Blunted bone mineral density (BMD) accretion, elevated risk of bone stress injuries (BSI) and micro-fractures.
-- **Metabolic Rate**: Down-regulation of resting metabolic rate (RMR), low triiodothyronine ($T_3$), and reduced protein synthesis.
-- **Hematology & Immunity**: Elevated risk of iron deficiency anemia, reduced neutrophil counts, and recurrent upper respiratory tract infections.
-- **Performance Symptoms**: Decreased muscle strength, impaired glycogen storage, chronic fatigue, increased injury risk, and loss of training response.
+### Biological Female Symptoms
+- **Endocrine & Reproductive**: Functional Hypothalamic Amenorrhea (FHA), oligomenorrhea, delayed menarche, reduced circulating estrogen ($E_2$).
+- **Bone Health & Structural Integrity**: Accelerated bone mineral density (BMD) loss, high incidence of bone stress injuries (BSI) and sacral/femoral stress fractures.
+
+### Biological Male Symptoms
+- **Endocrine & Reproductive**: Suppression of hypothalamic-pituitary-gonadal (HPG) axis, low serum free testosterone, loss of morning erections, erectile dysfunction, suppressed libido, and reduced sperm motility.
+- **Bone Health & Structural Integrity**: Micro-architectural bone deterioration, spinal and calcaneal bone stress fractures.
+
+### Universal Indicators
+- **Metabolic Rate**: Down-regulation of resting metabolic rate (RMR ratio $< 0.90$), low triiodothyronine ($T_3$), and reduced protein synthesis.
+- **Hematology & Immunity**: Iron deficiency anemia, reduced neutrophil counts, recurrent upper respiratory tract infections (URTI).
+- **Performance Symptoms**: Muscle strength loss, impaired glycogen storage, persistent fatigue, loss of training adaptation, and elevated injury rates.
 
 ---
 
@@ -39,3 +52,4 @@ Prolonged Low Energy Availability triggers systemic physiological disruption acr
 2. **Exercise Volume Adjustment**: Reduce high-intensity endurance training volume; eliminate non-essential energy expenditure.
 3. **Bone Support**: Ensure daily calcium intake of $1,500\text{ mg/day}$ and target serum Vitamin D levels ($> 75\text{ nmol/L}$, supplementing 1,500–2,000 IU/day as required).
 4. **Interdisciplinary Team Care**: Partner with a sports physician, registered dietitian, and mental health professional for ongoing monitoring.
+

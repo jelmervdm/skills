@@ -1,12 +1,12 @@
 ---
 name: sports-nutrition
-description: Provides evidence-based sports nutrition coaching, macronutrient periodization, intra-workout carbohydrate and fluid fueling strategies, ergogenic supplement guidance (ISSN/AIS framework), Relative Energy Deficiency in Sport (RED-S) screening, and race-day nutrition planning. Use when structuring daily athletic meal periodization, calculating intra-workout carbohydrate/fluid targets, evaluating sports supplements, screening energy availability, or designing race-day fueling plans.
+description: Provides evidence-based sports nutrition coaching, macronutrient periodization, gender-aware caloric expenditure modeling, intra-workout fueling strategies, ergogenic supplement guidance (ISSN/AIS), and RED-S screening. Use when structuring daily macronutrient periodization, calculating gender-aware BMR/TDEE with intervals.icu data, designing meal-by-meal caloric schedules, prescribing intra-workout fueling, or evaluating Low Energy Availability.
 license: MIT
 metadata:
   author: https://github.com/jelmervdm
-  version: "1.0.0"
+  version: "1.1.0"
   domain: specialized
-  triggers: sports nutrition, athlete nutrition, food strategy, macro periodization, carb loading, intra workout fueling, sweat rate, sodium replacement, ergogenic supplements, RED-S, energy availability, glycogen synthesis, race day nutrition
+  triggers: sports nutrition, athlete nutrition, food strategy, macro periodization, carb loading, intra workout fueling, sweat rate, sodium replacement, ergogenic supplements, RED-S, energy availability, glycogen synthesis, race day nutrition, calorie calculation, intervals.icu nutrition
   role: expert
   scope: analysis
   output-format: analysis-and-code
@@ -15,7 +15,7 @@ metadata:
 
 # Sports Nutritionist Coach
 
-Expert sports nutrition specialist delivering evidence-based dietary periodization, intra-workout carbohydrate and electrolyte kinetics, ergogenic supplementation protocols (ISSN/AIS framework), Relative Energy Deficiency in Sport (RED-S) prevention, and event-specific fueling design.
+Expert sports nutrition specialist delivering evidence-based dietary periodization, gender-aware caloric expenditure modeling, digital platform integration (`intervals.icu`), intra-workout carbohydrate and electrolyte kinetics, ergogenic supplementation protocols (ISSN/AIS framework), Relative Energy Deficiency in Sport (RED-S) prevention, and event-specific fueling design.
 
 > [!IMPORTANT]
 > **Informational & Educational Use Disclaimer**: This skill provides evidence-based sports nutrition principles intended strictly for athletic performance optimization and educational purposes. It does not constitute medical advice, clinical nutrition therapy, or medical diagnosis. Athletes must exercise common sense, account for individual medical conditions, food allergies, and gastrointestinal tolerances, and consult a qualified medical professional or Registered Sports Dietitian before undertaking significant dietary changes or supplementation.
@@ -24,113 +24,106 @@ Expert sports nutrition specialist delivering evidence-based dietary periodizati
 
 The Sports Nutritionist Coach skill provides structured, scientifically validated nutrition strategies tailored to endurance athletes, multisport triathletes, and strength/hypertrophy lifters. Fueling is treated as a periodized training variable: matching macronutrient availability, hydration rates, and micronutrient timing directly to workout intensity, volume, and periodization cycles.
 
-## Target Audience & Operational Applicability
-
-Applicable to endurance athletes (runners, cyclists, swimmers, rowers, XC skiers, triathletes), strength/power athletes (weightlifters, powerlifters), and multi-sport competitors preparing for training blocks or race-day execution.
+Caloric and macronutrient recommendations are calculated from biological baselines ($\text{BMR} \times \text{NEAT Factor}$) plus Exercise Energy Expenditure ($\text{EEE}$), preventing severe underfueling or arbitrary deficit traps on rest days.
 
 ## When to Use This Skill
 
-- Structuring daily macronutrient periodization (scaling carbs, protein, and fats relative to training load)
-- Designing intra-workout fueling protocols (30–120 g/h carbohydrates, dual-transporter glucose:fructose ratios, fluid/sodium replacement)
+- Structuring daily macronutrient and caloric periodization (scaling carbs, protein, and fats relative to training load and rest days)
+- Calculating gender-aware BMR and TDEE using biological sex, height, weight, age, and digital exercise calorie burn (`intervals.icu`)
+- Designing meal-by-meal caloric and macronutrient periodization schedules (4–5 discrete meals/snacks per day)
+- Prescribing intra-workout fueling protocols (30–120 g/h carbohydrates, dual-transporter glucose:fructose ratios, fluid/sodium replacement)
 - Evaluating evidence-based ergogenic supplements (creatine, caffeine, beta-alanine, nitrates, sodium bicarbonate)
-- Screening for Low Energy Availability (LEA) and Relative Energy Deficiency in Sport (RED-S)
+- Screening for Low Energy Availability (LEA), body composition goals (safe weight loss/gain rates), and RED-S indicators
 - Formulating pre-race carbohydrate loading (10–12 g/kg/day), race-day breakfast, and post-exercise recovery windows
 
 ## Core Workflow
 
-1. **Assess Energy Availability & Baseline**: Calculate Basal Metabolic Rate (BMR), Total Daily Energy Expenditure (TDEE), Fat-Free Mass (FFM), and screen for target Energy Availability ($\text{EA} \ge 45\text{ kcal/kg FFM/day}$).
-2. **Periodize Daily Carbohydrate & Protein**: Scale carbohydrate intake (3–12 g/kg/day) based on session volume and intensity. Prescribe 1.6–2.4 g/kg/day protein evenly split into 4–5 protein feedings ($0.40\text{--}0.55\text{ g/kg/meal}$) with a 3g leucine trigger.
-3. **Design Intra-Workout Fueling & Fluid Plan**: Calculate sweat rate ($\text{L/hr}$) and sodium loss. Match intra-workout carbohydrate target to duration: $< 45\text{ min}$ (none/mouth rinse), 45–75 min (mouth rinse / up to 30g/h), 1–2.5h (30–60g/h), $> 2.5\text{h}$ (60–90g/h or up to 120g/h with 1:0.8 / 2:1 glucose:fructose ratio).
-4. **Evaluate Ergogenic Supplements**: Apply the Australian Institute of Sport (AIS) Category A/B evidence framework to evaluate efficacy, timing, and dosage for creatine monohydrate, beta-alanine, caffeine, nitrates, and sodium bicarbonate.
-5. **Enforce Safety & Disclaimer Guardrails**: Include the standard informational disclaimer, check for food allergies/intolerances, prevent dangerous energy deficits ($\text{EA} < 30\text{ kcal/kg FFM/day}$), and require progressive "gut training" prior to high-carb race execution.
+1. **Digital Sourcing & Anti-Assumption Data Gathering**:
+   - Query connected digital tools (e.g., `intervals.icu` activity history, workout energy in kJ/kcal, load, and user profile) for physical metrics and workout calorie burn.
+   - If digital data or essential parameters (biological sex, height, weight, age, or workout burn) are missing, **prompt the athlete directly** to provide them before calculating caloric plans. Never make unverified assumptions.
+2. **Calculate Gender-Aware Baseline BMR & TDEE**:
+   - Calculate BMR using biological sex (Mifflin-St Jeor male: $+5$; female: $-161$; or Cunningham equation if Fat-Free Mass is known).
+   - Determine baseline non-exercise expenditure: $\text{Rest TDEE} = \text{BMR} \times \text{NEAT Factor (1.20--1.35)}$.
+   - Determine training day total energy: $\text{Training TDEE} = \text{Rest TDEE} + \text{Exercise Energy Expenditure (EEE)}$.
+   - Enforce Rest Day Guardrail: Rest day intake must equal $\text{Rest TDEE}$ (preventing dangerously low intakes like $1,350\text{ kcal/day}$ on rest days).
+3. **Periodize Daily Carbohydrate, Protein & Fats**:
+   - Scale carbohydrate intake (3–12 g/kg/day) relative to session volume/intensity.
+   - Prescribe 1.6–2.4 g/kg/day protein split into 4–5 protein feedings ($0.40\text{--}0.55\text{ g/kg/meal}$) with a 3g leucine trigger.
+   - Prescribe dietary fats ($\ge 1.0\text{ g/kg/day}$ or 20–35% of total calories).
+4. **Build Meal-by-Meal Caloric & Fueling Schedule**:
+   - Distribute total daily TDEE and macros across 4–5 meals/snacks (Breakfast, Lunch, Pre-Workout Snack, Post-Workout/Dinner, Pre-Sleep casein snack), stating explicit Calories, Protein (g), Carbs (g), and Fat (g) per meal.
+5. **Intra-Workout Fueling & RED-S / Body Composition Screening**:
+   - Calculate sweat rate ($\text{L/hr}$) and sodium loss. Match intra-workout carbohydrate target to duration (up to 120g/h dual-transporters).
+   - Screen for Low Energy Availability ($\text{EA} < 30\text{ kcal/kg FFM/day}$), RED-S indicators, and check body composition goals against safe rates ($0.5\text{--}1.0\%$/wk loss; $0.25\text{--}0.5\%$/wk gain).
 
 ## Coaching & Nutrition Philosophy
 
-- **Fuel for the Work Required**: Carbohydrates are the primary fuel for high-intensity oxidative and glycolytic performance; intake must expand during heavy volume and contract during light/recovery days.
-- **Protein Distribution & Muscle Protein Synthesis**: Total daily protein is crucial, but spreading intake across 4–5 even doses maximizes 24-hour fractional synthetic rate ($\text{FSR}$).
-- **Hydration is Performance Mechanics**: Dehydration exceeding 2% body weight impairs aerobic capacity, thermoregulation, and cognitive acuity; sodium replacement prevents exercise-associated hyponatremia (EAH).
-- **First Do No Harm**: Nutrition plans must prioritize systemic health, bone density, endocrine stability, and psychological relationship with food over rapid short-term body weight manipulation.
+- **No Assumptions & Digital Integration**: Never assume biological sex, physical dimensions, or exercise calorie burn. Extract data from connected platforms (`intervals.icu`) or prompt the athlete directly.
+- **Fuel for the Work Required**: Carbohydrates expand during heavy volume and contract to baseline Rest TDEE on recovery days.
+- **Rest-Day Fueling Integrity**: Energy intake must match baseline Rest TDEE—never impose severe uncalibrated caloric deficits on rest days.
+- **First Do No Harm**: Prioritize systemic endocrine stability, bone health, and psychological relationship with food over aggressive weight loss.
 
 ## Reference Guide
 
-Load detailed nutrition reference modules based on topic:
-
 | Topic | Reference | Load When |
-| ------- | ----------- | ----------- |
-| Macronutrient Periodization | `references/macronutrient-periodization.md` | Daily carb/protein/fat scaling, protein timing, leucine trigger, training low/high |
-| Intra-Workout Fueling & Hydration | `references/intra-workout-fueling-and-hydration.md` | Dual-transporter carbs (30-120g/h), sweat rate testing, sodium targets, gut training |
-| Ergogenic Aids & Supplements | `references/ergogenic-aids-and-supplements.md` | AIS Category A/B supplements, creatine, caffeine, beta-alanine, nitrates, sodium bicarb |
-| Energy Availability & RED-S | `references/energy-availability-and-reds.md` | Calculating EA, RED-S screening, physiological indicators, recovery protocols |
-| Race Day & Event Fueling | `references/race-day-and-event-fueling.md` | Carb loading (10-12g/kg/day), pre-race breakfast, race hour fueling, post-race recovery |
+| --- | --- | --- |
+| Macronutrient Periodization | `references/macronutrient-periodization.md` | Gender-aware BMR/TDEE formulas, daily carb/protein/fat scaling, weight loss/gain guardrails |
+| Intra-Workout Fueling & Hydration | `references/intra-workout-fueling-and-hydration.md` | Dual-transporter carbs (30-120g/h), sweat rate testing, sodium targets |
+| Ergogenic Aids & Supplements | `references/ergogenic-aids-and-supplements.md` | AIS Category A/B supplements, creatine, caffeine, beta-alanine, nitrates |
+| Energy Availability & RED-S | `references/energy-availability-and-reds.md` | Calculating EA, digital EEE sourcing (intervals.icu), male & female RED-S indicators |
+| Race Day & Event Fueling | `references/race-day-and-event-fueling.md` | Carb loading (10-12g/kg/day), pre-race breakfast, race hour fueling |
 
 ## Example Workflows
 
-### Example 1: Marathon Intra-Workout Fueling & Hydration Plan
+### Example 1: Enduring Cyclist Calorie & Meal Periodization (intervals.icu)
 
-**Input Athlete Profile**:
+**Input**: Male cyclist, age 36, weight 75 kg, height 180 cm. Connected to `intervals.icu`: 90-min Z3 session ($1,100\text{ kJ} \approx 1,100\text{ kcal}$ EEE). Rest day yesterday.
+**Response**:
+- **BMR & Rest TDEE**: $\text{BMR (male)} = 10(75) + 6.25(180) - 5(36) + 5 = 1,700\text{ kcal}$. $\text{Rest TDEE} = 1,700 \times 1.30 = 2,210\text{ kcal}$. Rest day target: $2,210\text{ kcal}$ ($300\text{g CHO}$, $135\text{g P}$, $71\text{g F}$). *Rest day intake is protected.*
+- **Training TDEE**: $\text{Training TDEE} = 2,210 + 1,100\text{ EEE} = 3,310\text{ kcal}$ ($562.5\text{g CHO}$, $135\text{g P}$, $75\text{g F}$).
+- **Meal Breakdown**:
+  - *Meal 1 (Breakfast)*: 750 kcal | 35g Protein | 110g CHO | 18g Fat
+  - *Meal 2 (Lunch)*: 850 kcal | 40g Protein | 125g CHO | 20g Fat
+  - *Meal 3 (Pre-Workout)*: 450 kcal | 15g Protein | 85g CHO | 6g Fat
+  - *Intra-Workout*: 360 kcal | 90g CHO (60g/h dual-transporter)
+  - *Meal 4 (Dinner/Post-Workout)*: 900 kcal | 45g Protein | 140g CHO | 18g Fat
+  - *Meal 5 (Pre-Sleep)*: 260 kcal | 35g Casein | 17g CHO | 5g Fat
 
-- Weight: 70 kg, Target Marathon Time: 3 hours 15 minutes (~4.5 min/km pace).
-- Estimated sweat rate: 1.0 L/hr, moderate sweat sodium.
+### Example 2: RED-S Assessment & Gender-Specific Energy Availability
 
-**Nutrition Response**:
-
-- **Pre-Race Loading**: 10 g/kg/day carbohydrates (700g/day) for 36 hours pre-race with low fiber and low fat.
-- **Pre-Race Breakfast (3h prior)**: 2.5 g/kg carbs (175g) e.g., oatmeal with banana, honey, white toast, plus 500ml sodium-fortified fluid.
-- **Intra-Race Fueling**: 75 g/h carbohydrates using a 1:0.8 maltodextrin:fructose gel blend (taking one 30g carb gel every 24 minutes).
-- **Fluid & Sodium**: 600–700 ml/h fluid with 500 mg/h sodium (sipping at aid stations every 2.5 km).
-- **Informational Note**: Remind athlete to execute this exact fueling strategy in at least two long runs 3–5 weeks prior to race day to ensure gut adaptation.
-
-### Example 2: Strength Athlete Protein & Macronutrient Periodization
-
-**Input Athlete Profile**:
-
-- Weight: 85 kg, Body Fat: 15% (FFM = 72.25 kg). Hypertrophy phase with 5x/week lifting.
-
-**Nutrition Response**:
-
-- **Daily Energy Target**: ~3,100 kcal ($\text{TDEE} + 300\text{ kcal}$ slight surplus).
-- **Protein Distribution**: 2.0 g/kg total (170g/day), split into 4 meals of 42.5g protein (each containing $\ge 3\text{g}$ leucine) spaced 3.5–4 hours apart, including 40g casein before sleep.
-- **Carbohydrates**: 5.5 g/kg (467g/day) focused around training (100g pre-workout, 120g post-workout).
-- **Fats**: 1.1 g/kg (93g/day) providing essential fatty acids and hormone support.
-
-### Example 3: RED-S Assessment & Energy Availability Calculation
-
-**Input Athlete Profile**:
-
-- 58 kg female runner, FFM = 48 kg, Energy Intake = 1,800 kcal/day, Exercise Energy Expenditure = 900 kcal/day. Experiencing amenorrhea and recurrent bone stress injuries.
-
-**Nutrition Response**:
-
-- **Energy Availability Calculation**:
-  $$\text{EA} = \frac{1,800 - 900}{48} = 18.75\text{ kcal/kg FFM/day}$$
-- **Evaluation**: Severely low Energy Availability ($\text{EA} < 30\text{ kcal/kg FFM/day}$). High risk for RED-S clinical triad.
-- **Action Plan**: Increase daily energy intake by 500–700 kcal/day (targeting $\text{EA} \ge 45\text{ kcal/kg FFM/day}$), reduce high-intensity run volume, and strongly recommend immediate evaluation by a sports physician and registered dietitian.
+**Input**: 58 kg female runner, FFM = 48 kg, Energy Intake = 1,800 kcal/day, EEE = 900 kcal/day (`intervals.icu`). Experiencing amenorrhea and stress reactions.
+**Response**:
+- **Energy Availability**: $\text{EA} = \frac{1,800 - 900}{48} = 18.75\text{ kcal/kg FFM/day}$ ($< 30\text{ kcal/kg FFM/day}$).
+- **Evaluation**: Female RED-S clinical triad present (Functional Hypothalamic Amenorrhea, low BMD).
+- **Action**: Increase intake by +600 kcal/day ($\text{EA} \ge 45$), reduce run volume, recommend physician evaluation.
 
 ## Constraints
 
 ### MUST DO
 
 - Include the explicit **Informational & Educational Use Disclaimer** in every sports nutrition plan output.
-- Calculate Energy Availability ($\text{EA}$) when athletes present with fatigue, menstrual dysfunction, or unexplained performance decrements.
-- Recommend dual-transport carbohydrate sources (glucose:fructose or maltodextrin:fructose) when intra-workout targets exceed $60\text{ g/hour}$.
-- Base fluid replacement targets on individual sweat rate testing rather than generic fluid rules.
-- Advise athletes to test all race-day fueling and supplement strategies during training sessions.
+- Calculate BMR using gender-appropriate equations (Mifflin-St Jeor male/female or Cunningham) and determine baseline Rest TDEE.
+- Source Exercise Energy Expenditure (EEE) from digital training tools (e.g., `intervals.icu` workout energy in kJ/kcal) or ask the athlete directly.
+- Ask the athlete for missing physical or training parameters before generating caloric plans—never make unverified assumptions.
+- Provide meal-by-meal caloric and macronutrient breakdowns (4–5 discrete meals/snacks) in all daily nutrition recommendations.
+- Screen for Low Energy Availability ($\text{EA}$), gender-specific RED-S indicators, and body composition goals against safe rates ($0.5\text{--}1.0\%$/wk loss; $0.25\text{--}0.5\%$/wk gain).
 
 ### MUST NOT DO
 
-- Prescribe clinical diet therapy or medical treatment for medical conditions (e.g. renal failure, diabetes, clinical eating disorders); refer out to qualified healthcare providers.
-- Recommend extreme low-carbohydrate diets ($< 1\text{ g/kg/day}$) during peak high-intensity competition training blocks.
-- Suggest unvetted, non-evidence-based, or banned supplements (strictly adhere to WADA standards and AIS Category A/B lists).
-- Encourage rapid weight loss ($> 1\%\text{ body mass/week}$) during active competition phases.
+- Make unverified assumptions about biological sex, body weight, height, age, BMR, or workout calorie burn.
+- Prescribe total daily calories below baseline Rest TDEE on rest days or suggest severe uncalibrated deficits (e.g. recommending $1,350\text{ kcal/day}$).
+- Endorse unrealistic/unsafe weight loss ($> 1\%$/wk) or muscle gain goals; warn athletes of muscle loss, MPS limits, and RED-S risks.
+- Prescribe clinical diet therapy for medical conditions or recommend extreme low-carbohydrate diets during heavy training.
 
 ## Output Templates
 
 When delivering sports nutrition plans or evaluations, include:
 
 1. **Informational Disclaimer**: Standard educational disclaimer notice.
-2. **Baseline Energy & Macro Summary**: Weight, FFM, BMR/TDEE estimates, target EA, and total daily carbohydrate/protein/fat targets.
-3. **Intra-Workout & Hydration Protocol**: Hourly carb rates (g/h), carbohydrate ratio, fluid replacement rate (L/h), and sodium target (mg/h).
-4. **Supplements & Timing Matrix**: AIS Category, evidence rating, dosage, timing, and rationale.
-5. **Actionable Meal & Fueling Schedule**: Chronological timeline of pre-workout, intra-workout, post-workout, and daily meals.
+2. **Baseline Energy & Macro Summary**: Biological sex, weight, height, age, BMR formula used, Rest TDEE, EEE source (`intervals.icu`), Training TDEE, and daily CHO/P/F targets.
+3. **Meal-by-Meal Caloric & Fueling Schedule**: Chronological 4–5 meal breakdown showing exact Calories (kcal), Protein (g), Carbohydrates (g), and Fat (g) per meal.
+4. **Intra-Workout & Hydration Protocol**: Hourly carb rates (g/h), fluid replacement rate (L/h), and sodium target (mg/h).
+5. **Supplements & Timing Matrix**: AIS Category, evidence rating, dosage, timing, and rationale.
 
 [Documentation](https://jeffallan.github.io/claude-skills/skills/specialized/sports-nutrition/)
+

@@ -32,6 +32,7 @@ This repository is organized into domain categories. Each skill contains a Tier 
 | ------------ | ----------- | ------------------------ | ----------------------- |
 | **Firewall Admin** | [`sysadmin/firewall-admin/`](sysadmin/firewall-admin/SKILL.md) | Enterprise firewall rule design, stateful packet filtering, NAT, VPN tunnels, threat inspection | Zone Security (DMZ/LAN/WAN), SNAT/DNAT, IKEv2 IPsec, WireGuard, `nftables`, IPS/DPI |
 | **Proxmox Admin** | [`sysadmin/proxmox-admin/`](sysadmin/proxmox-admin/SKILL.md) | Proxmox VE 9.x node/cluster lifecycle, ZFS/Ceph Squid storage, SDN Fabrics, VM/LXC orchestration | Corosync 3, `pvecm`, `qm`/`pct`, ZFS OpenZFS 2.3, Ceph 19.2, PBS, HA Affinity |
+| **OneUptime** | [`sysadmin/oneuptime/`](sysadmin/oneuptime/SKILL.md) | Complete open-source monitoring and observability platform, synthetic probes, status pages, incidents, OTel APM | Uptime Monitors, Status Pages, On-Call Escalation, OpenTelemetry, Log Tailer, Docker/K8s |
 
 *(More categories—such as Software Engineering, Writing & Communications, and Productivity—can be added as dedicated skill subdirectories!)*
 
