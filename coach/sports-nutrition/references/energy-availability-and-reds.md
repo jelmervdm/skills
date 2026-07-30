@@ -32,14 +32,17 @@ $$\text{Energy Availability (EA)} = \frac{\text{Energy Intake (kcal)} - \text{Ex
 Prolonged Low Energy Availability triggers systemic physiological disruption across multiple organ systems, presenting with biological sex differences:
 
 ### Biological Female Symptoms
+
 - **Endocrine & Reproductive**: Functional Hypothalamic Amenorrhea (FHA), oligomenorrhea, delayed menarche, reduced circulating estrogen ($E_2$).
 - **Bone Health & Structural Integrity**: Accelerated bone mineral density (BMD) loss, high incidence of bone stress injuries (BSI) and sacral/femoral stress fractures.
 
 ### Biological Male Symptoms
+
 - **Endocrine & Reproductive**: Suppression of hypothalamic-pituitary-gonadal (HPG) axis, low serum free testosterone, loss of morning erections, erectile dysfunction, suppressed libido, and reduced sperm motility.
 - **Bone Health & Structural Integrity**: Micro-architectural bone deterioration, spinal and calcaneal bone stress fractures.
 
 ### Universal Indicators
+
 - **Metabolic Rate**: Down-regulation of resting metabolic rate (RMR ratio $< 0.90$), low triiodothyronine ($T_3$), and reduced protein synthesis.
 - **Hematology & Immunity**: Iron deficiency anemia, reduced neutrophil counts, recurrent upper respiratory tract infections (URTI).
 - **Performance Symptoms**: Muscle strength loss, impaired glycogen storage, persistent fatigue, loss of training adaptation, and elevated injury rates.
@@ -52,4 +55,3 @@ Prolonged Low Energy Availability triggers systemic physiological disruption acr
 2. **Exercise Volume Adjustment**: Reduce high-intensity endurance training volume; eliminate non-essential energy expenditure.
 3. **Bone Support**: Ensure daily calcium intake of $1,500\text{ mg/day}$ and target serum Vitamin D levels ($> 75\text{ nmol/L}$, supplementing 1,500–2,000 IU/day as required).
 4. **Interdisciplinary Team Care**: Partner with a sports physician, registered dietitian, and mental health professional for ongoing monitoring.
-

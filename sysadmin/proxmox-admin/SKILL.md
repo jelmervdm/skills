@@ -10,7 +10,7 @@ metadata:
   role: expert
   scope: infrastructure
   output-format: architecture
-  related-skills: firewall-admin, oneuptime
+  related-skills: firewall-admin
 ---
 
 # Proxmox Admin

@@ -79,6 +79,7 @@ Caloric and macronutrient recommendations are calculated from biological baselin
 
 **Input**: Male cyclist, age 36, weight 75 kg, height 180 cm. Connected to `intervals.icu`: 90-min Z3 session ($1,100\text{ kJ} \approx 1,100\text{ kcal}$ EEE). Rest day yesterday.
 **Response**:
+
 - **BMR & Rest TDEE**: $\text{BMR (male)} = 10(75) + 6.25(180) - 5(36) + 5 = 1,700\text{ kcal}$. $\text{Rest TDEE} = 1,700 \times 1.30 = 2,210\text{ kcal}$. Rest day target: $2,210\text{ kcal}$ ($300\text{g CHO}$, $135\text{g P}$, $71\text{g F}$). *Rest day intake is protected.*
 - **Training TDEE**: $\text{Training TDEE} = 2,210 + 1,100\text{ EEE} = 3,310\text{ kcal}$ ($562.5\text{g CHO}$, $135\text{g P}$, $75\text{g F}$).
 - **Meal Breakdown**:
@@ -93,6 +94,7 @@ Caloric and macronutrient recommendations are calculated from biological baselin
 
 **Input**: 58 kg female runner, FFM = 48 kg, Energy Intake = 1,800 kcal/day, EEE = 900 kcal/day (`intervals.icu`). Experiencing amenorrhea and stress reactions.
 **Response**:
+
 - **Energy Availability**: $\text{EA} = \frac{1,800 - 900}{48} = 18.75\text{ kcal/kg FFM/day}$ ($< 30\text{ kcal/kg FFM/day}$).
 - **Evaluation**: Female RED-S clinical triad present (Functional Hypothalamic Amenorrhea, low BMD).
 - **Action**: Increase intake by +600 kcal/day ($\text{EA} \ge 45$), reduce run volume, recommend physician evaluation.
@@ -126,4 +128,3 @@ When delivering sports nutrition plans or evaluations, include:
 5. **Supplements & Timing Matrix**: AIS Category, evidence rating, dosage, timing, and rationale.
 
 [Documentation](https://jeffallan.github.io/claude-skills/skills/specialized/sports-nutrition/)
-

@@ -112,4 +112,3 @@ Body composition modifications (fat loss or muscle gain) must be periodized outs
 - **Unrealistic/Unsafe Goal Detection**:
   - Flag and reject any request claiming rapid muscle mass gain goals (e.g., gaining 5–10 kg of muscle in 1 month).
   - *Risk Communication*: Explain biological Muscle Protein Synthesis (MPS) limits in natural athletes. Clarify that aggressive surpluses ($> 750\text{--}1,000\text{ kcal/day}$) do not accelerate muscle synthesis and result primarily in fat mass storage, metabolic strain, and cardiovascular load.
-
